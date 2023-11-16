@@ -46,8 +46,11 @@
             panel1 = new Panel();
             bunifuCards2 = new Bunifu.Framework.UI.BunifuCards();
             bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
+            rjButton2 = new CustomControls.RJControls.RJButton();
+            rjButton1 = new CustomControls.RJControls.RJButton();
             panel3 = new Panel();
             bunifuCards3 = new Bunifu.Framework.UI.BunifuCards();
+            kryptonRadioButton1 = new Krypton.Toolkit.KryptonRadioButton();
             txtUserName = new CustomControls.RJControls.RJTextBox();
             button3 = new Button();
             button2 = new Button();
@@ -58,9 +61,6 @@
             panel4 = new Panel();
             toggleButton1 = new CustomControls.RJControls.RJToggleButton();
             label3 = new Label();
-            rjButton1 = new CustomControls.RJControls.RJButton();
-            rjButton2 = new CustomControls.RJControls.RJButton();
-            kryptonRadioButton1 = new Krypton.Toolkit.KryptonRadioButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -287,6 +287,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 1;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += hiddenshow_Click;
             // 
             // pictureBox5
             // 
@@ -384,6 +385,50 @@
             bunifuCards1.Size = new Size(307, 57);
             bunifuCards1.TabIndex = 11;
             // 
+            // rjButton2
+            // 
+            rjButton2.BackColor = Color.Transparent;
+            rjButton2.BackgroundColor = Color.Transparent;
+            rjButton2.BorderColor = Color.DimGray;
+            rjButton2.BorderRadius = 10;
+            rjButton2.BorderSize = 2;
+            rjButton2.FlatAppearance.BorderSize = 0;
+            rjButton2.FlatStyle = FlatStyle.Flat;
+            rjButton2.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            rjButton2.ForeColor = Color.Black;
+            rjButton2.Image = (Image)resources.GetObject("rjButton2.Image");
+            rjButton2.ImageAlign = ContentAlignment.MiddleLeft;
+            rjButton2.Location = new Point(160, 6);
+            rjButton2.Name = "rjButton2";
+            rjButton2.Size = new Size(135, 45);
+            rjButton2.TabIndex = 19;
+            rjButton2.Text = "Báo cáo lỗi ";
+            rjButton2.TextAlign = ContentAlignment.MiddleRight;
+            rjButton2.TextColor = Color.Black;
+            rjButton2.UseVisualStyleBackColor = false;
+            // 
+            // rjButton1
+            // 
+            rjButton1.BackColor = Color.Transparent;
+            rjButton1.BackgroundColor = Color.Transparent;
+            rjButton1.BorderColor = Color.DimGray;
+            rjButton1.BorderRadius = 10;
+            rjButton1.BorderSize = 2;
+            rjButton1.FlatAppearance.BorderSize = 0;
+            rjButton1.FlatStyle = FlatStyle.Flat;
+            rjButton1.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            rjButton1.ForeColor = Color.Black;
+            rjButton1.Image = (Image)resources.GetObject("rjButton1.Image");
+            rjButton1.ImageAlign = ContentAlignment.MiddleLeft;
+            rjButton1.Location = new Point(11, 6);
+            rjButton1.Name = "rjButton1";
+            rjButton1.Size = new Size(135, 45);
+            rjButton1.TabIndex = 19;
+            rjButton1.Text = "Nhân viên   ";
+            rjButton1.TextAlign = ContentAlignment.MiddleRight;
+            rjButton1.TextColor = Color.Black;
+            rjButton1.UseVisualStyleBackColor = false;
+            // 
             // panel3
             // 
             panel3.BackColor = Color.Silver;
@@ -427,6 +472,14 @@
             bunifuCards3.Size = new Size(488, 280);
             bunifuCards3.TabIndex = 17;
             // 
+            // kryptonRadioButton1
+            // 
+            kryptonRadioButton1.Location = new Point(41, 187);
+            kryptonRadioButton1.Name = "kryptonRadioButton1";
+            kryptonRadioButton1.Size = new Size(100, 20);
+            kryptonRadioButton1.TabIndex = 19;
+            kryptonRadioButton1.Values.Text = "Lưu lại lần sau";
+            // 
             // txtUserName
             // 
             txtUserName.BackColor = SystemColors.Window;
@@ -443,7 +496,7 @@
             txtUserName.Padding = new Padding(10, 7, 10, 7);
             txtUserName.PasswordChar = false;
             txtUserName.PlaceholderColor = Color.DarkGray;
-            txtUserName.PlaceholderText = "";
+            txtUserName.PlaceholderText = "Tài khoản";
             txtUserName.Size = new Size(266, 31);
             txtUserName.TabIndex = 19;
             txtUserName.Texts = "";
@@ -522,9 +575,9 @@
             txtPass.Multiline = false;
             txtPass.Name = "txtPass";
             txtPass.Padding = new Padding(10, 7, 10, 7);
-            txtPass.PasswordChar = false;
+            txtPass.PasswordChar = true;
             txtPass.PlaceholderColor = Color.DarkGray;
-            txtPass.PlaceholderText = "";
+            txtPass.PlaceholderText = "Mật khẩu";
             txtPass.Size = new Size(266, 31);
             txtPass.TabIndex = 19;
             txtPass.Texts = "";
@@ -567,58 +620,6 @@
             label3.Size = new Size(168, 42);
             label3.TabIndex = 2;
             label3.Text = "Trung Resort";
-            // 
-            // rjButton1
-            // 
-            rjButton1.BackColor = Color.Transparent;
-            rjButton1.BackgroundColor = Color.Transparent;
-            rjButton1.BorderColor = Color.DimGray;
-            rjButton1.BorderRadius = 10;
-            rjButton1.BorderSize = 2;
-            rjButton1.FlatAppearance.BorderSize = 0;
-            rjButton1.FlatStyle = FlatStyle.Flat;
-            rjButton1.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            rjButton1.ForeColor = Color.Black;
-            rjButton1.Image = (Image)resources.GetObject("rjButton1.Image");
-            rjButton1.ImageAlign = ContentAlignment.MiddleLeft;
-            rjButton1.Location = new Point(11, 6);
-            rjButton1.Name = "rjButton1";
-            rjButton1.Size = new Size(135, 45);
-            rjButton1.TabIndex = 19;
-            rjButton1.Text = "Nhân viên   ";
-            rjButton1.TextAlign = ContentAlignment.MiddleRight;
-            rjButton1.TextColor = Color.Black;
-            rjButton1.UseVisualStyleBackColor = false;
-            // 
-            // rjButton2
-            // 
-            rjButton2.BackColor = Color.Transparent;
-            rjButton2.BackgroundColor = Color.Transparent;
-            rjButton2.BorderColor = Color.DimGray;
-            rjButton2.BorderRadius = 10;
-            rjButton2.BorderSize = 2;
-            rjButton2.FlatAppearance.BorderSize = 0;
-            rjButton2.FlatStyle = FlatStyle.Flat;
-            rjButton2.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            rjButton2.ForeColor = Color.Black;
-            rjButton2.Image = (Image)resources.GetObject("rjButton2.Image");
-            rjButton2.ImageAlign = ContentAlignment.MiddleLeft;
-            rjButton2.Location = new Point(160, 6);
-            rjButton2.Name = "rjButton2";
-            rjButton2.Size = new Size(135, 45);
-            rjButton2.TabIndex = 19;
-            rjButton2.Text = "Báo cáo lỗi ";
-            rjButton2.TextAlign = ContentAlignment.MiddleRight;
-            rjButton2.TextColor = Color.Black;
-            rjButton2.UseVisualStyleBackColor = false;
-            // 
-            // kryptonRadioButton1
-            // 
-            kryptonRadioButton1.Location = new Point(45, 187);
-            kryptonRadioButton1.Name = "kryptonRadioButton1";
-            kryptonRadioButton1.Size = new Size(100, 20);
-            kryptonRadioButton1.TabIndex = 19;
-            kryptonRadioButton1.Values.Text = "Lưu lại lần sau";
             // 
             // Form1
             // 

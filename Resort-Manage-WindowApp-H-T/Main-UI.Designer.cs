@@ -54,6 +54,33 @@
             pictureBox9 = new PictureBox();
             panel3 = new Panel();
             panel4 = new Panel();
+            rjDropdownMenu1 = new CustomControls.RJControls.RJDropdownMenu(components);
+            aToolStripMenuItem = new ToolStripMenuItem();
+            aAToolStripMenuItem = new ToolStripMenuItem();
+            aBToolStripMenuItem = new ToolStripMenuItem();
+            aCToolStripMenuItem = new ToolStripMenuItem();
+            aDToolStripMenuItem = new ToolStripMenuItem();
+            bToolStripMenuItem = new ToolStripMenuItem();
+            bAToolStripMenuItem = new ToolStripMenuItem();
+            bBToolStripMenuItem = new ToolStripMenuItem();
+            bCToolStripMenuItem = new ToolStripMenuItem();
+            bDToolStripMenuItem = new ToolStripMenuItem();
+            cToolStripMenuItem = new ToolStripMenuItem();
+            cAToolStripMenuItem = new ToolStripMenuItem();
+            cBToolStripMenuItem = new ToolStripMenuItem();
+            cCToolStripMenuItem = new ToolStripMenuItem();
+            cDToolStripMenuItem = new ToolStripMenuItem();
+            dToolStripMenuItem = new ToolStripMenuItem();
+            dAToolStripMenuItem = new ToolStripMenuItem();
+            dBToolStripMenuItem = new ToolStripMenuItem();
+            dCToolStripMenuItem = new ToolStripMenuItem();
+            dDToolStripMenuItem = new ToolStripMenuItem();
+            eToolStripMenuItem = new ToolStripMenuItem();
+            eAToolStripMenuItem = new ToolStripMenuItem();
+            eBToolStripMenuItem = new ToolStripMenuItem();
+            eCToolStripMenuItem = new ToolStripMenuItem();
+            eDToolStripMenuItem = new ToolStripMenuItem();
+            thoátChươngTrìnhToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             bunifuCards1.SuspendLayout();
@@ -65,6 +92,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            rjDropdownMenu1.SuspendLayout();
             SuspendLayout();
             // 
             // kryptonCustomPaletteBase1
@@ -186,6 +214,8 @@
             label7.Size = new Size(71, 34);
             label7.TabIndex = 1;
             label7.Text = "Ho tro";
+            label7.MouseEnter += label_MouseEnter;
+            label7.MouseLeave += label_MouseLeave;
             // 
             // label6
             // 
@@ -198,6 +228,8 @@
             label6.Size = new Size(79, 34);
             label6.TabIndex = 1;
             label6.Text = "Lich su";
+            label6.MouseEnter += label_MouseEnter;
+            label6.MouseLeave += label_MouseLeave;
             // 
             // label5
             // 
@@ -210,6 +242,8 @@
             label5.Size = new Size(115, 34);
             label5.TabIndex = 1;
             label5.Text = "Dat phong";
+            label5.MouseEnter += label_MouseEnter;
+            label5.MouseLeave += label_MouseLeave;
             // 
             // label4
             // 
@@ -222,6 +256,8 @@
             label4.Size = new Size(103, 34);
             label4.TabIndex = 1;
             label4.Text = "Yeu thich";
+            label4.MouseEnter += label_MouseEnter;
+            label4.MouseLeave += label_MouseLeave;
             // 
             // label3
             // 
@@ -234,6 +270,8 @@
             label3.Size = new Size(111, 34);
             label3.TabIndex = 1;
             label3.Text = "Trang chu";
+            label3.MouseEnter += label_MouseEnter;
+            label3.MouseLeave += label_MouseLeave;
             // 
             // label2
             // 
@@ -247,6 +285,8 @@
             label2.TabIndex = 1;
             label2.Text = "Log Out";
             label2.Click += label2_Click;
+            label2.MouseEnter += label2_MouseEnter;
+            label2.MouseLeave += label_MouseLeave;
             // 
             // pictureBox8
             // 
@@ -366,6 +406,7 @@
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox9.TabIndex = 0;
             pictureBox9.TabStop = false;
+            pictureBox9.Click += pictureBox9_Click;
             // 
             // panel3
             // 
@@ -382,6 +423,179 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(2, 750);
             panel4.TabIndex = 5;
+            // 
+            // rjDropdownMenu1
+            // 
+            rjDropdownMenu1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            rjDropdownMenu1.IsMainMenu = false;
+            rjDropdownMenu1.Items.AddRange(new ToolStripItem[] { aToolStripMenuItem, bToolStripMenuItem, cToolStripMenuItem, dToolStripMenuItem, eToolStripMenuItem, thoátChươngTrìnhToolStripMenuItem });
+            rjDropdownMenu1.MenuItemHeight = 25;
+            rjDropdownMenu1.MenuItemTextColor = Color.Empty;
+            rjDropdownMenu1.Name = "rjDropdownMenu1";
+            rjDropdownMenu1.PrimaryColor = Color.Empty;
+            rjDropdownMenu1.Size = new Size(181, 158);
+            // 
+            // aToolStripMenuItem
+            // 
+            aToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { aAToolStripMenuItem, aBToolStripMenuItem, aCToolStripMenuItem, aDToolStripMenuItem });
+            aToolStripMenuItem.Name = "aToolStripMenuItem";
+            aToolStripMenuItem.Size = new Size(180, 22);
+            aToolStripMenuItem.Text = "A";
+            // 
+            // aAToolStripMenuItem
+            // 
+            aAToolStripMenuItem.Name = "aAToolStripMenuItem";
+            aAToolStripMenuItem.Size = new Size(90, 22);
+            aAToolStripMenuItem.Text = "AA";
+            // 
+            // aBToolStripMenuItem
+            // 
+            aBToolStripMenuItem.Name = "aBToolStripMenuItem";
+            aBToolStripMenuItem.Size = new Size(90, 22);
+            aBToolStripMenuItem.Text = "AB";
+            // 
+            // aCToolStripMenuItem
+            // 
+            aCToolStripMenuItem.Name = "aCToolStripMenuItem";
+            aCToolStripMenuItem.Size = new Size(90, 22);
+            aCToolStripMenuItem.Text = "AC";
+            // 
+            // aDToolStripMenuItem
+            // 
+            aDToolStripMenuItem.Name = "aDToolStripMenuItem";
+            aDToolStripMenuItem.Size = new Size(90, 22);
+            aDToolStripMenuItem.Text = "AD";
+            // 
+            // bToolStripMenuItem
+            // 
+            bToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { bAToolStripMenuItem, bBToolStripMenuItem, bCToolStripMenuItem, bDToolStripMenuItem });
+            bToolStripMenuItem.Name = "bToolStripMenuItem";
+            bToolStripMenuItem.Size = new Size(180, 22);
+            bToolStripMenuItem.Text = "B";
+            // 
+            // bAToolStripMenuItem
+            // 
+            bAToolStripMenuItem.Name = "bAToolStripMenuItem";
+            bAToolStripMenuItem.Size = new Size(89, 22);
+            bAToolStripMenuItem.Text = "BA";
+            // 
+            // bBToolStripMenuItem
+            // 
+            bBToolStripMenuItem.Name = "bBToolStripMenuItem";
+            bBToolStripMenuItem.Size = new Size(89, 22);
+            bBToolStripMenuItem.Text = "BB";
+            // 
+            // bCToolStripMenuItem
+            // 
+            bCToolStripMenuItem.Name = "bCToolStripMenuItem";
+            bCToolStripMenuItem.Size = new Size(89, 22);
+            bCToolStripMenuItem.Text = "BC";
+            // 
+            // bDToolStripMenuItem
+            // 
+            bDToolStripMenuItem.Name = "bDToolStripMenuItem";
+            bDToolStripMenuItem.Size = new Size(89, 22);
+            bDToolStripMenuItem.Text = "BD";
+            // 
+            // cToolStripMenuItem
+            // 
+            cToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { cAToolStripMenuItem, cBToolStripMenuItem, cCToolStripMenuItem, cDToolStripMenuItem });
+            cToolStripMenuItem.Name = "cToolStripMenuItem";
+            cToolStripMenuItem.Size = new Size(180, 22);
+            cToolStripMenuItem.Text = "C";
+            // 
+            // cAToolStripMenuItem
+            // 
+            cAToolStripMenuItem.Name = "cAToolStripMenuItem";
+            cAToolStripMenuItem.Size = new Size(90, 22);
+            cAToolStripMenuItem.Text = "CA";
+            // 
+            // cBToolStripMenuItem
+            // 
+            cBToolStripMenuItem.Name = "cBToolStripMenuItem";
+            cBToolStripMenuItem.Size = new Size(90, 22);
+            cBToolStripMenuItem.Text = "CB";
+            // 
+            // cCToolStripMenuItem
+            // 
+            cCToolStripMenuItem.Name = "cCToolStripMenuItem";
+            cCToolStripMenuItem.Size = new Size(90, 22);
+            cCToolStripMenuItem.Text = "CC";
+            // 
+            // cDToolStripMenuItem
+            // 
+            cDToolStripMenuItem.Name = "cDToolStripMenuItem";
+            cDToolStripMenuItem.Size = new Size(90, 22);
+            cDToolStripMenuItem.Text = "CD";
+            // 
+            // dToolStripMenuItem
+            // 
+            dToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { dAToolStripMenuItem, dBToolStripMenuItem, dCToolStripMenuItem, dDToolStripMenuItem });
+            dToolStripMenuItem.Name = "dToolStripMenuItem";
+            dToolStripMenuItem.Size = new Size(180, 22);
+            dToolStripMenuItem.Text = "D";
+            // 
+            // dAToolStripMenuItem
+            // 
+            dAToolStripMenuItem.Name = "dAToolStripMenuItem";
+            dAToolStripMenuItem.Size = new Size(90, 22);
+            dAToolStripMenuItem.Text = "DA";
+            // 
+            // dBToolStripMenuItem
+            // 
+            dBToolStripMenuItem.Name = "dBToolStripMenuItem";
+            dBToolStripMenuItem.Size = new Size(90, 22);
+            dBToolStripMenuItem.Text = "DB";
+            // 
+            // dCToolStripMenuItem
+            // 
+            dCToolStripMenuItem.Name = "dCToolStripMenuItem";
+            dCToolStripMenuItem.Size = new Size(90, 22);
+            dCToolStripMenuItem.Text = "DC";
+            // 
+            // dDToolStripMenuItem
+            // 
+            dDToolStripMenuItem.Name = "dDToolStripMenuItem";
+            dDToolStripMenuItem.Size = new Size(90, 22);
+            dDToolStripMenuItem.Text = "DD";
+            // 
+            // eToolStripMenuItem
+            // 
+            eToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { eAToolStripMenuItem, eBToolStripMenuItem, eCToolStripMenuItem, eDToolStripMenuItem });
+            eToolStripMenuItem.Name = "eToolStripMenuItem";
+            eToolStripMenuItem.Size = new Size(180, 22);
+            eToolStripMenuItem.Text = "E";
+            // 
+            // eAToolStripMenuItem
+            // 
+            eAToolStripMenuItem.Name = "eAToolStripMenuItem";
+            eAToolStripMenuItem.Size = new Size(180, 22);
+            eAToolStripMenuItem.Text = "EA";
+            // 
+            // eBToolStripMenuItem
+            // 
+            eBToolStripMenuItem.Name = "eBToolStripMenuItem";
+            eBToolStripMenuItem.Size = new Size(180, 22);
+            eBToolStripMenuItem.Text = "EB";
+            // 
+            // eCToolStripMenuItem
+            // 
+            eCToolStripMenuItem.Name = "eCToolStripMenuItem";
+            eCToolStripMenuItem.Size = new Size(180, 22);
+            eCToolStripMenuItem.Text = "EC";
+            // 
+            // eDToolStripMenuItem
+            // 
+            eDToolStripMenuItem.Name = "eDToolStripMenuItem";
+            eDToolStripMenuItem.Size = new Size(180, 22);
+            eDToolStripMenuItem.Text = "ED";
+            // 
+            // thoátChươngTrìnhToolStripMenuItem
+            // 
+            thoátChươngTrìnhToolStripMenuItem.Name = "thoátChươngTrìnhToolStripMenuItem";
+            thoátChươngTrìnhToolStripMenuItem.Size = new Size(180, 22);
+            thoátChươngTrìnhToolStripMenuItem.Text = "Thoát chương trình";
+            thoátChươngTrìnhToolStripMenuItem.Click += thoátChươngTrìnhToolStripMenuItem_Click;
             // 
             // Main_UI
             // 
@@ -411,6 +625,7 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            rjDropdownMenu1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -440,5 +655,32 @@
         private Panel panel2;
         private Panel panel3;
         private Panel panel4;
+        private CustomControls.RJControls.RJDropdownMenu rjDropdownMenu1;
+        private ToolStripMenuItem bToolStripMenuItem;
+        private ToolStripMenuItem bAToolStripMenuItem;
+        private ToolStripMenuItem bBToolStripMenuItem;
+        private ToolStripMenuItem bCToolStripMenuItem;
+        private ToolStripMenuItem bDToolStripMenuItem;
+        private ToolStripMenuItem cToolStripMenuItem;
+        private ToolStripMenuItem cAToolStripMenuItem;
+        private ToolStripMenuItem cBToolStripMenuItem;
+        private ToolStripMenuItem cCToolStripMenuItem;
+        private ToolStripMenuItem cDToolStripMenuItem;
+        private ToolStripMenuItem dToolStripMenuItem;
+        private ToolStripMenuItem dAToolStripMenuItem;
+        private ToolStripMenuItem dBToolStripMenuItem;
+        private ToolStripMenuItem dCToolStripMenuItem;
+        private ToolStripMenuItem dDToolStripMenuItem;
+        private ToolStripMenuItem eToolStripMenuItem;
+        private ToolStripMenuItem eAToolStripMenuItem;
+        private ToolStripMenuItem eBToolStripMenuItem;
+        private ToolStripMenuItem eCToolStripMenuItem;
+        private ToolStripMenuItem eDToolStripMenuItem;
+        private ToolStripMenuItem aToolStripMenuItem;
+        private ToolStripMenuItem aAToolStripMenuItem;
+        private ToolStripMenuItem aBToolStripMenuItem;
+        private ToolStripMenuItem aCToolStripMenuItem;
+        private ToolStripMenuItem aDToolStripMenuItem;
+        private ToolStripMenuItem thoátChươngTrìnhToolStripMenuItem;
     }
 }
