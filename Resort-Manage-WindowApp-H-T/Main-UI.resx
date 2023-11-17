@@ -120,7 +120,73 @@
   <metadata name="kryptonCustomPaletteBase1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <metadata name="pictureBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poppins, 14.25pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 47</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 34</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Resort Trung
+</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <metadata name="pictureBox2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABTcAAAU3CAYAAACLtFGjAAAABGdBTUEAALGPC/xhBQAAo6hJREFUeF7s
@@ -825,10 +891,238 @@
         SZIa0Te+8f8B7BrHr4pFMgYAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 12</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="bunifuCards1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poppins, 14.25pt</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 443</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 34</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Ho tro</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="label6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poppins, 14.25pt</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 373</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 34</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Lich su</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="label5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poppins, 14.25pt</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 303</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 34</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Dat phong</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="label4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poppins, 14.25pt</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 233</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 34</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Yeu thich</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="label3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poppins, 14.25pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 163</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 34</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Trang chu</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poppins, 14.25pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 707</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 34</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="pictureBox8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="pictureBox8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAC6dJREFUaEPtmQlQFVcWhp2lfA80lSivn4qoICjKpjHuCSJoFHFDWQQVkUVQ4xLU
+        EAAACxABrSO9dQAAC6dJREFUaEPtmQlQFVcWhp2lfA80lSivn4qoICjKpjHuCSJoFHFDWQQVkUVQ4xLU
         JCI4GgVmEgsrcTQ4JtFEzajRqMgmKIt7XGLKmWSUMlslJqnBZcS4Gzhz/tu3mwZ5LGOZmpnKrTpV7evu
         c7//3P/c25Qtfh3/ryNpacaxBUszSI30+xxXkpamn01KTf8r35u9KGWlq3z0v2OcSehgXxqjhJbGWNaV
         xCinVrwy526NgPoDIlnQ5LCwD38n0/zyI3+um6k03pJaFmu5XBqrkIgYhUqmq1EcrdCBae0pP7ozfRTv
@@ -881,10 +1175,37 @@
         88jbrpwAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="pictureBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 440</value>
+  </data>
+  <data name="pictureBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="pictureBox8.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Name" xml:space="preserve">
+    <value>pictureBox8</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Parent" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="pictureBox7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAABiZJREFUaEPtmW1sU1UYxxsF0qJOUT8pICqKgPiBOQImOEQl3LbTKUxhaoAoERQT
+        EAAACxABrSO9dQAABiZJREFUaEPtmW1sU1UYxxsF0qJOUT8pICqKgPiBOQImOEQl3LbTKUxhaoAoERQT
         EeIQAsUAAnGD2+7FdWMzIENgbAhjLxmBDRgDZMA6tolQVvb+3q77BAZ5PM/NaXfbnq73pfDB7J/80mb3
         3Of8n9vz8twzzZCGNKTQ0vJctY7n9mmskcPpn3x1MO5h7U7jDNJuLSFPx+vryKeTfP6D4HetWV+L17CN
         zjx3usZkeojefX/1eJphlM6sBwQNiJPQJs4ZQxLbpjVzLZ42UtHy+madmdtKkhlNw90fjdxhnOrbMXnC
@@ -913,10 +1234,37 @@
         ai+eaSL4nWATrpGSWKgqH9S/WYc0pP+1NJr/AOdSOm176uCkAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="pictureBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 370</value>
+  </data>
+  <data name="pictureBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="pictureBox7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Name" xml:space="preserve">
+    <value>pictureBox7</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Parent" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="pictureBox6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="pictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAACGBJREFUaEPtmGtUVWUax7keOAfwyt17ZM2a1VzW6lOjH6a8JGE5FihpeaNI1GpK
+        EAAACxABrSO9dQAACGBJREFUaEPtmGtUVWUax7keOAfwyt17ZM2a1VzW6lOjH6a8JGE5FihpeaNI1GpK
         BYMGvAAp3lOMIwLKxQsIjSVapoUlF0XNGhAVRAMFtHREMMkZ5z/Pu/e7N4ez9z43Lb/4rPWuczgL9vn9
         nvN/3/0cnB7Ww3pYttfI6o7UEcc6OkdUd6Twl+5b/ZrXlmvksY5fRlZ3gt6oi7903+r+X3vR9885LTzV
         7LzwWzi/cxTOMZ+DvYG0XKL3wnXeYbi+XQ7Xt76B25tfw41+dpv7Fdznfgn3OYfgHvMF3GcfgO6Nz6GL
@@ -955,10 +1303,37 @@
         NooZZM7nAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="pictureBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 300</value>
+  </data>
+  <data name="pictureBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="pictureBox6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Name" xml:space="preserve">
+    <value>pictureBox6</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Parent" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="pictureBox5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAABUFJREFUaEPtmFlvGlcUx6nUqupD1b5GbRUbm3iJ7QAzLDaGYRk2Y8COd1dKPkK+
+        EAAACxABrSO9dQAABUFJREFUaEPtmFlvGlcUx6nUqupD1b5GbRUbm3iJ7QAzLDaGYRk2Y8COd1dKPkK+
         QutU7fdI+5K236FVJceN1PY9lvqSMoDZBgYrju3Kt+feuWyzwEBwHFX8pSMkNNz5zU9n7hzGNMooo4wy
         yrWnntxdqKf2D+rpvaN6ck+AOpdWd4T66u5hfXX74HRly0oPNRwxlLKJwfRjMZg6rAaSQsWfPBe5VUH0
         J45ELvF1xRefp4cOnurazsRpav/nenr/6jS9j05TewjgoXYRwEPtoHpiG0kr26gW3/pFim1x9Ke6AeBA
@@ -983,10 +1358,37 @@
         V/Q6hv/pbzOjeu3+ziZrZh7iHQba5WVmzPqQfj3KKKOM8r+KyfQfnzf2bTw2R4sAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 230</value>
+  </data>
+  <data name="pictureBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="pictureBox5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Name" xml:space="preserve">
+    <value>pictureBox5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Parent" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="pictureBox4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAABZZJREFUaEPtmH1oG2Ucx2PTvDRx6qbDgdA5dSJMC25r7m5WNqviug0msvqCL/tn
+        EAAACxABrSO9dQAABZZJREFUaEPtmH1oG2Ucx2PTvDRx6qbDgdA5dSJMC25r7m5WNqviug0msvqCL/tn
         ioLQKYIiiPt7Q2Rq/xCGOBhVhzjdZKW0XZO05I10a5Kur1temjR9WV/Xdl2r68/7XZ+nS+6e3i5J9+Lo
         Fz4Qcne/5/O7u+e5S3TLuVsTFPTloS15CaRV0O8hX/8/EhDyKgJb9NeCW/SAiJ/nAoL+ANl85wZ0unta
         BP1BURYW4Ttxnzyy+52Vru060zk+/5dzQj6ocVbI/8PF6wrIYXdGgiW6lWd5vUOUQ8Ebw+vd/k26h8jh
@@ -1013,6 +1415,33 @@
         Kzrdf+h8FhT59aZnAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 160</value>
+  </data>
+  <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="pictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <metadata name="pictureBox3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlhlgCWAPcAAAD/ACsxUTg9Wzk+XEVKZkZLZ1JXcVNYcmBkfGFlfW1xh25yiHp+knt/k4iLnYmM
@@ -1749,6 +2178,213 @@
         nk27tu3buHPr3s27t+/fwIMLH068uPHjyJMrX868ufPn0KNLn244IAA7
 </value>
   </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 698</value>
+  </data>
+  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="pictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="bunifuCards1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="bunifuCards1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="bunifuCards1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 750</value>
+  </data>
+  <data name="bunifuCards1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;bunifuCards1.Name" xml:space="preserve">
+    <value>bunifuCards1</value>
+  </data>
+  <data name="&gt;&gt;bunifuCards1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuCards, Bunifu.UI.WinForms.1.5.3, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
+  </data>
+  <data name="&gt;&gt;bunifuCards1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bunifuCards1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="panel1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="toggleButton1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="toggleButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toggleButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 90</value>
+  </data>
+  <data name="toggleButton1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="toggleButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="toggleButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;toggleButton1.Name" xml:space="preserve">
+    <value>toggleButton1</value>
+  </data>
+  <data name="&gt;&gt;toggleButton1.Type" xml:space="preserve">
+    <value>CustomControls.RJControls.RJToggleButton, Resort-Manage-WindowApp-H-T, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toggleButton1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;toggleButton1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="panel2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 80</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 2</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="label10.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poppins, 9pt</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 90</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Dark Mode</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="label9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poppins, 10pt</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 37</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 25</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Nhà phát triển</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="label8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Poppins, 12pt, style=Bold</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 12</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 28</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Trung Nguyen</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="pictureBox9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="pictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
@@ -1759,10 +2395,472 @@
         AABJRU5ErkJggg==
 </value>
   </data>
+  <data name="pictureBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 23</value>
+  </data>
+  <data name="pictureBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="pictureBox9.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox9.Name" xml:space="preserve">
+    <value>pictureBox9</value>
+  </data>
+  <data name="&gt;&gt;pictureBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox9.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox9.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1250, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 750</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="panel3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 2</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>2, 750</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="panel4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1250, 3</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>2, 750</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <metadata name="rjDropdownMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>220, 17</value>
   </metadata>
+  <data name="rjDropdownMenu1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="aAToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="aAToolStripMenuItem.Text" xml:space="preserve">
+    <value>AA</value>
+  </data>
+  <data name="aBToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="aBToolStripMenuItem.Text" xml:space="preserve">
+    <value>AB</value>
+  </data>
+  <data name="aCToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="aCToolStripMenuItem.Text" xml:space="preserve">
+    <value>AC</value>
+  </data>
+  <data name="aDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="aDToolStripMenuItem.Text" xml:space="preserve">
+    <value>AD</value>
+  </data>
+  <data name="aToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="aToolStripMenuItem.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="bAToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="bAToolStripMenuItem.Text" xml:space="preserve">
+    <value>BA</value>
+  </data>
+  <data name="bBToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="bBToolStripMenuItem.Text" xml:space="preserve">
+    <value>BB</value>
+  </data>
+  <data name="bCToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="bCToolStripMenuItem.Text" xml:space="preserve">
+    <value>BC</value>
+  </data>
+  <data name="bDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="bDToolStripMenuItem.Text" xml:space="preserve">
+    <value>BD</value>
+  </data>
+  <data name="bToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="bToolStripMenuItem.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="cAToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="cAToolStripMenuItem.Text" xml:space="preserve">
+    <value>CA</value>
+  </data>
+  <data name="cBToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="cBToolStripMenuItem.Text" xml:space="preserve">
+    <value>CB</value>
+  </data>
+  <data name="cCToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="cCToolStripMenuItem.Text" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="cDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="cDToolStripMenuItem.Text" xml:space="preserve">
+    <value>CD</value>
+  </data>
+  <data name="cToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="cToolStripMenuItem.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="dAToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="dAToolStripMenuItem.Text" xml:space="preserve">
+    <value>DA</value>
+  </data>
+  <data name="dBToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="dBToolStripMenuItem.Text" xml:space="preserve">
+    <value>DB</value>
+  </data>
+  <data name="dCToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="dCToolStripMenuItem.Text" xml:space="preserve">
+    <value>DC</value>
+  </data>
+  <data name="dDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="dDToolStripMenuItem.Text" xml:space="preserve">
+    <value>DD</value>
+  </data>
+  <data name="dToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="dToolStripMenuItem.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="eAToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 22</value>
+  </data>
+  <data name="eAToolStripMenuItem.Text" xml:space="preserve">
+    <value>EA</value>
+  </data>
+  <data name="eBToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 22</value>
+  </data>
+  <data name="eBToolStripMenuItem.Text" xml:space="preserve">
+    <value>EB</value>
+  </data>
+  <data name="eCToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 22</value>
+  </data>
+  <data name="eCToolStripMenuItem.Text" xml:space="preserve">
+    <value>EC</value>
+  </data>
+  <data name="eDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 22</value>
+  </data>
+  <data name="eDToolStripMenuItem.Text" xml:space="preserve">
+    <value>ED</value>
+  </data>
+  <data name="eToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="eToolStripMenuItem.Text" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="thoátChươngTrìnhToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="thoátChươngTrìnhToolStripMenuItem.Text" xml:space="preserve">
+    <value>Thoát chương trình</value>
+  </data>
+  <data name="rjDropdownMenu1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 136</value>
+  </data>
+  <data name="&gt;&gt;rjDropdownMenu1.Name" xml:space="preserve">
+    <value>rjDropdownMenu1</value>
+  </data>
+  <data name="&gt;&gt;rjDropdownMenu1.Type" xml:space="preserve">
+    <value>CustomControls.RJControls.RJDropdownMenu, Resort-Manage-WindowApp-H-T, Culture=neutral, PublicKeyToken=null</value>
+  </data>
   <metadata name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>374, 17</value>
   </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>vi</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1500, 750</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Main_UI</value>
+  </data>
+  <data name="&gt;&gt;kryptonCustomPaletteBase1.Name" xml:space="preserve">
+    <value>kryptonCustomPaletteBase1</value>
+  </data>
+  <data name="&gt;&gt;kryptonCustomPaletteBase1.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonCustomPaletteBase, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;aToolStripMenuItem.Name" xml:space="preserve">
+    <value>aToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aAToolStripMenuItem.Name" xml:space="preserve">
+    <value>aAToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aAToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aBToolStripMenuItem.Name" xml:space="preserve">
+    <value>aBToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aBToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aCToolStripMenuItem.Name" xml:space="preserve">
+    <value>aCToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aCToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aDToolStripMenuItem.Name" xml:space="preserve">
+    <value>aDToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aDToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bToolStripMenuItem.Name" xml:space="preserve">
+    <value>bToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;bToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bAToolStripMenuItem.Name" xml:space="preserve">
+    <value>bAToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;bAToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bBToolStripMenuItem.Name" xml:space="preserve">
+    <value>bBToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;bBToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bCToolStripMenuItem.Name" xml:space="preserve">
+    <value>bCToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;bCToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bDToolStripMenuItem.Name" xml:space="preserve">
+    <value>bDToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;bDToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cToolStripMenuItem.Name" xml:space="preserve">
+    <value>cToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;cToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cAToolStripMenuItem.Name" xml:space="preserve">
+    <value>cAToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;cAToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cBToolStripMenuItem.Name" xml:space="preserve">
+    <value>cBToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;cBToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cCToolStripMenuItem.Name" xml:space="preserve">
+    <value>cCToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;cCToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cDToolStripMenuItem.Name" xml:space="preserve">
+    <value>cDToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;cDToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dToolStripMenuItem.Name" xml:space="preserve">
+    <value>dToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;dToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dAToolStripMenuItem.Name" xml:space="preserve">
+    <value>dAToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;dAToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dBToolStripMenuItem.Name" xml:space="preserve">
+    <value>dBToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;dBToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dCToolStripMenuItem.Name" xml:space="preserve">
+    <value>dCToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;dCToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dDToolStripMenuItem.Name" xml:space="preserve">
+    <value>dDToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;dDToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eToolStripMenuItem.Name" xml:space="preserve">
+    <value>eToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;eToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eAToolStripMenuItem.Name" xml:space="preserve">
+    <value>eAToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;eAToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eBToolStripMenuItem.Name" xml:space="preserve">
+    <value>eBToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;eBToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eCToolStripMenuItem.Name" xml:space="preserve">
+    <value>eCToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;eCToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eDToolStripMenuItem.Name" xml:space="preserve">
+    <value>eDToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;eDToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;thoátChươngTrìnhToolStripMenuItem.Name" xml:space="preserve">
+    <value>thoátChươngTrìnhToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;thoátChươngTrìnhToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bunifuElipse1.Name" xml:space="preserve">
+    <value>bunifuElipse1</value>
+  </data>
+  <data name="&gt;&gt;bunifuElipse1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuElipse, Bunifu.UI.WinForms.1.5.3, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Main_UI</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Krypton.Toolkit.KryptonForm, Krypton.Toolkit, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
 </root>

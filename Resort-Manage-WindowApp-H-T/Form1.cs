@@ -1,5 +1,6 @@
 ﻿using Bunifu.Framework.UI;
 using Krypton.Toolkit;
+using Resort_Manage_WindowApp_H_T.Interface;
 //using ComponentFactory.Krypton.Toolkit;
 
 namespace Resort_Manage_WindowApp_H_T
@@ -69,5 +70,11 @@ namespace Resort_Manage_WindowApp_H_T
             }
         }
 
+        private void kryptonButton2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            taotaikhoan UI = new taotaikhoan();
+            UI.Show();
+        }
     }
 }

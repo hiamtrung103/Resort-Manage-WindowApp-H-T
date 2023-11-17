@@ -73,10 +73,19 @@
             kryptonCustomPaletteBase2 = new Krypton.Toolkit.KryptonCustomPaletteBase(components);
             label27 = new Label();
             bunifuCards8 = new Bunifu.Framework.UI.BunifuCards();
+            label31 = new Label();
+            pictureBox22 = new PictureBox();
+            label30 = new Label();
+            rjButton1 = new CustomControls.RJControls.RJButton();
             label28 = new Label();
-            bunifuCards9 = new Bunifu.Framework.UI.BunifuCards();
-            label29 = new Label();
             bunifuCards10 = new Bunifu.Framework.UI.BunifuCards();
+            bunifuCards9 = new Bunifu.Framework.UI.BunifuCards();
+            rjButton2 = new CustomControls.RJControls.RJButton();
+            label29 = new Label();
+            label32 = new Label();
+            label33 = new Label();
+            pictureBox23 = new PictureBox();
+            timer1 = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)kryptonComboBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
@@ -98,8 +107,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
             bunifuCards8.SuspendLayout();
-            bunifuCards9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox22).BeginInit();
             bunifuCards10.SuspendLayout();
+            bunifuCards9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
             SuspendLayout();
             // 
             // label10
@@ -279,7 +290,7 @@
             // 
             // bunifuCards3
             // 
-            bunifuCards3.BackColor = Color.WhiteSmoke;
+            bunifuCards3.BackColor = Color.Gainsboro;
             bunifuCards3.BorderRadius = 40;
             bunifuCards3.BottomSahddow = true;
             bunifuCards3.BottomShadow = true;
@@ -394,7 +405,7 @@
             // 
             // bunifuCards4
             // 
-            bunifuCards4.BackColor = Color.WhiteSmoke;
+            bunifuCards4.BackColor = Color.Gainsboro;
             bunifuCards4.BorderRadius = 40;
             bunifuCards4.BottomSahddow = true;
             bunifuCards4.BottomShadow = true;
@@ -514,7 +525,7 @@
             // 
             // bunifuCards6
             // 
-            bunifuCards6.BackColor = Color.WhiteSmoke;
+            bunifuCards6.BackColor = Color.Gainsboro;
             bunifuCards6.BorderRadius = 40;
             bunifuCards6.BottomSahddow = true;
             bunifuCards6.BottomShadow = true;
@@ -703,19 +714,79 @@
             bunifuCards8.BottomSahddow = true;
             bunifuCards8.BottomShadow = true;
             bunifuCards8.color = Color.Transparent;
+            bunifuCards8.Controls.Add(label31);
+            bunifuCards8.Controls.Add(pictureBox22);
+            bunifuCards8.Controls.Add(label30);
+            bunifuCards8.Controls.Add(rjButton1);
             bunifuCards8.Controls.Add(label28);
             bunifuCards8.Cursor = Cursors.Hand;
             bunifuCards8.ForeColor = Color.FromArgb(255, 128, 128);
             bunifuCards8.IndicatorColor = Color.Transparent;
             bunifuCards8.LeftSahddow = false;
             bunifuCards8.LeftShadow = false;
-            bunifuCards8.Location = new Point(29, 20);
+            bunifuCards8.Location = new Point(3, 20);
             bunifuCards8.Name = "bunifuCards8";
             bunifuCards8.RightSahddow = true;
             bunifuCards8.RightShadow = true;
             bunifuCards8.ShadowDepth = 20;
-            bunifuCards8.Size = new Size(400, 200);
+            bunifuCards8.Size = new Size(470, 200);
             bunifuCards8.TabIndex = 11;
+            // 
+            // label31
+            // 
+            label31.AutoSize = true;
+            label31.BackColor = Color.Transparent;
+            label31.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label31.ForeColor = Color.Black;
+            label31.Location = new Point(10, 54);
+            label31.Name = "label31";
+            label31.Size = new Size(229, 54);
+            label31.TabIndex = 6;
+            label31.Text = "Tìm kiếm các chỗ nghỉ cho phép \r\nlưu trú dài ngày với giá theo tháng \r\nưu đãi.";
+            // 
+            // pictureBox22
+            // 
+            pictureBox22.BackColor = Color.Transparent;
+            pictureBox22.Dock = DockStyle.Right;
+            pictureBox22.Image = (Image)resources.GetObject("pictureBox22.Image");
+            pictureBox22.Location = new Point(250, 0);
+            pictureBox22.Name = "pictureBox22";
+            pictureBox22.Size = new Size(220, 200);
+            pictureBox22.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox22.TabIndex = 7;
+            pictureBox22.TabStop = false;
+            // 
+            // label30
+            // 
+            label30.AutoSize = true;
+            label30.BackColor = Color.Transparent;
+            label30.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label30.ForeColor = Color.Black;
+            label30.Location = new Point(10, 18);
+            label30.Name = "label30";
+            label30.Size = new Size(214, 36);
+            label30.TabIndex = 6;
+            label30.Text = "Tận hưởng kỳ nghỉ dài nhất \r\ncủa bạn";
+            // 
+            // rjButton1
+            // 
+            rjButton1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            rjButton1.BackColor = Color.FromArgb(0, 108, 228);
+            rjButton1.BackgroundColor = Color.FromArgb(0, 108, 228);
+            rjButton1.BorderColor = Color.FromArgb(0, 53, 228);
+            rjButton1.BorderRadius = 6;
+            rjButton1.BorderSize = 0;
+            rjButton1.FlatAppearance.BorderSize = 0;
+            rjButton1.FlatStyle = FlatStyle.Flat;
+            rjButton1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            rjButton1.ForeColor = Color.White;
+            rjButton1.Location = new Point(14, 136);
+            rjButton1.Name = "rjButton1";
+            rjButton1.Size = new Size(100, 37);
+            rjButton1.TabIndex = 8;
+            rjButton1.Text = "Tìm chỗ nghỉ";
+            rjButton1.TextColor = Color.White;
+            rjButton1.UseVisualStyleBackColor = false;
             // 
             // label28
             // 
@@ -728,40 +799,9 @@
             label28.TabIndex = 6;
             label28.Text = "/ đêm";
             // 
-            // bunifuCards9
-            // 
-            bunifuCards9.BackColor = Color.WhiteSmoke;
-            bunifuCards9.BorderRadius = 40;
-            bunifuCards9.BottomSahddow = true;
-            bunifuCards9.BottomShadow = true;
-            bunifuCards9.color = Color.Transparent;
-            bunifuCards9.Controls.Add(label29);
-            bunifuCards9.Cursor = Cursors.Hand;
-            bunifuCards9.IndicatorColor = Color.Transparent;
-            bunifuCards9.LeftSahddow = false;
-            bunifuCards9.LeftShadow = false;
-            bunifuCards9.Location = new Point(457, 20);
-            bunifuCards9.Name = "bunifuCards9";
-            bunifuCards9.RightSahddow = true;
-            bunifuCards9.RightShadow = true;
-            bunifuCards9.ShadowDepth = 20;
-            bunifuCards9.Size = new Size(471, 200);
-            bunifuCards9.TabIndex = 11;
-            // 
-            // label29
-            // 
-            label29.AutoSize = true;
-            label29.Font = new Font("Poppins", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label29.ForeColor = Color.Silver;
-            label29.Location = new Point(171, 227);
-            label29.Name = "label29";
-            label29.Size = new Size(50, 23);
-            label29.TabIndex = 6;
-            label29.Text = "/ đêm";
-            // 
             // bunifuCards10
             // 
-            bunifuCards10.BackColor = Color.Transparent;
+            bunifuCards10.BackColor = Color.Gainsboro;
             bunifuCards10.BorderRadius = 40;
             bunifuCards10.BottomSahddow = true;
             bunifuCards10.BottomShadow = true;
@@ -779,6 +819,97 @@
             bunifuCards10.ShadowDepth = 20;
             bunifuCards10.Size = new Size(963, 239);
             bunifuCards10.TabIndex = 11;
+            // 
+            // bunifuCards9
+            // 
+            bunifuCards9.BackColor = Color.WhiteSmoke;
+            bunifuCards9.BorderRadius = 40;
+            bunifuCards9.BottomSahddow = true;
+            bunifuCards9.BottomShadow = true;
+            bunifuCards9.color = Color.Transparent;
+            bunifuCards9.Controls.Add(rjButton2);
+            bunifuCards9.Controls.Add(label29);
+            bunifuCards9.Controls.Add(label32);
+            bunifuCards9.Controls.Add(label33);
+            bunifuCards9.Controls.Add(pictureBox23);
+            bunifuCards9.Cursor = Cursors.Hand;
+            bunifuCards9.ForeColor = Color.FromArgb(255, 128, 128);
+            bunifuCards9.IndicatorColor = Color.Transparent;
+            bunifuCards9.LeftSahddow = false;
+            bunifuCards9.LeftShadow = false;
+            bunifuCards9.Location = new Point(490, 20);
+            bunifuCards9.Name = "bunifuCards9";
+            bunifuCards9.RightSahddow = true;
+            bunifuCards9.RightShadow = true;
+            bunifuCards9.ShadowDepth = 20;
+            bunifuCards9.Size = new Size(470, 200);
+            bunifuCards9.TabIndex = 11;
+            // 
+            // rjButton2
+            // 
+            rjButton2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            rjButton2.BackColor = Color.FromArgb(0, 108, 228);
+            rjButton2.BackgroundColor = Color.FromArgb(0, 108, 228);
+            rjButton2.BorderColor = Color.FromArgb(0, 53, 228);
+            rjButton2.BorderRadius = 6;
+            rjButton2.BorderSize = 0;
+            rjButton2.FlatAppearance.BorderSize = 0;
+            rjButton2.FlatStyle = FlatStyle.Flat;
+            rjButton2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            rjButton2.ForeColor = Color.White;
+            rjButton2.Location = new Point(14, 136);
+            rjButton2.Name = "rjButton2";
+            rjButton2.Size = new Size(173, 37);
+            rjButton2.TabIndex = 8;
+            rjButton2.Text = "Khám phá ngay ưu đãi";
+            rjButton2.TextColor = Color.White;
+            rjButton2.UseVisualStyleBackColor = false;
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Font = new Font("Poppins", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label29.ForeColor = Color.Silver;
+            label29.Location = new Point(171, 227);
+            label29.Name = "label29";
+            label29.Size = new Size(50, 23);
+            label29.TabIndex = 6;
+            label29.Text = "/ đêm";
+            // 
+            // label32
+            // 
+            label32.AutoSize = true;
+            label32.BackColor = Color.Transparent;
+            label32.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label32.ForeColor = Color.Black;
+            label32.Location = new Point(10, 54);
+            label32.Name = "label32";
+            label32.Size = new Size(218, 36);
+            label32.TabIndex = 6;
+            label32.Text = "Khám phá hàng nghìn điểm đến \r\nkhắp thế giới và tiết kiệm từ 15%";
+            // 
+            // label33
+            // 
+            label33.AutoSize = true;
+            label33.BackColor = Color.Transparent;
+            label33.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label33.ForeColor = Color.Black;
+            label33.Location = new Point(10, 18);
+            label33.Name = "label33";
+            label33.Size = new Size(202, 36);
+            label33.TabIndex = 6;
+            label33.Text = "Tiết kiệm 15% với Ưu Đãi \r\nCuối Năm\r\n";
+            // 
+            // pictureBox23
+            // 
+            pictureBox23.Dock = DockStyle.Right;
+            pictureBox23.Image = (Image)resources.GetObject("pictureBox23.Image");
+            pictureBox23.Location = new Point(250, 0);
+            pictureBox23.Name = "pictureBox23";
+            pictureBox23.Size = new Size(220, 200);
+            pictureBox23.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox23.TabIndex = 9;
+            pictureBox23.TabStop = false;
             // 
             // trangchu
             // 
@@ -802,6 +933,8 @@
             Controls.Add(label11);
             Controls.Add(label16);
             Name = "trangchu";
+            StateCommon.Border.DrawBorders = Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom | Krypton.Toolkit.PaletteDrawBorders.Left | Krypton.Toolkit.PaletteDrawBorders.Right;
+            StateCommon.Border.Width = 1;
             Text = "trangchu";
             Controls.SetChildIndex(label16, 0);
             Controls.SetChildIndex(label11, 0);
@@ -844,9 +977,11 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
             bunifuCards8.ResumeLayout(false);
             bunifuCards8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox22).EndInit();
+            bunifuCards10.ResumeLayout(false);
             bunifuCards9.ResumeLayout(false);
             bunifuCards9.PerformLayout();
-            bunifuCards10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -897,8 +1032,17 @@
         private Label label27;
         private Bunifu.Framework.UI.BunifuCards bunifuCards8;
         private Label label28;
-        private Bunifu.Framework.UI.BunifuCards bunifuCards9;
-        private Label label29;
         private Bunifu.Framework.UI.BunifuCards bunifuCards10;
+        private CustomControls.RJControls.RJButton rjButton1;
+        private PictureBox pictureBox22;
+        private Label label31;
+        private Label label30;
+        private Bunifu.Framework.UI.BunifuCards bunifuCards9;
+        private CustomControls.RJControls.RJButton rjButton2;
+        private Label label29;
+        private Label label32;
+        private Label label33;
+        private PictureBox pictureBox23;
+        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using System.Windows.Forms;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 
-namespace CustomControls.RJControls
+namespace Resort_Manage_WindowApp_H_T.Control
 {
-    class RJRadioButton : RadioButton
+    public class RJRadioButton : RadioButton
     {
         //Fields
         private Color checkedColor = Color.MediumSlateBlue;
@@ -19,11 +18,7 @@ namespace CustomControls.RJControls
         //Properties
         public Color CheckedColor
         {
-            get
-            {
-                return checkedColor;
-            }
-
+            get { return checkedColor; }
             set
             {
                 checkedColor = value;
@@ -33,11 +28,7 @@ namespace CustomControls.RJControls
 
         public Color UnCheckedColor
         {
-            get
-            {
-                return unCheckedColor;
-            }
-
+            get { return unCheckedColor; }
             set
             {
                 unCheckedColor = value;
@@ -50,7 +41,7 @@ namespace CustomControls.RJControls
         {
             this.MinimumSize = new Size(0, 21);
             //Add a padding of 10 to the left to have a considerable distance between the text and the RadioButton.
-            this.Padding = new Padding(10,0,0,0);
+            this.Padding = new Padding(10, 0, 0, 0);
         }
 
         //Overridden methods
@@ -99,7 +90,6 @@ namespace CustomControls.RJControls
                     rbBorderSize + 8, (this.Height - TextRenderer.MeasureText(this.Text, this.Font).Height) / 2);//Y=Center
             }
         }
-
         //X-> Obsolete code, this was replaced by the Padding property in the constructor
         //(this.Padding = new Padding(10,0,0,0);)
         //protected override void OnResize(EventArgs e)

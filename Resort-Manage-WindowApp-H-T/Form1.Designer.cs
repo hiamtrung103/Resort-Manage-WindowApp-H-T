@@ -263,6 +263,7 @@
             kryptonButton2.StateTracking.Border.Width = 1;
             kryptonButton2.TabIndex = 5;
             kryptonButton2.Values.Text = "Tạo Tài Khoản";
+            kryptonButton2.Click += kryptonButton2_Click;
             // 
             // linkLabel1
             // 
