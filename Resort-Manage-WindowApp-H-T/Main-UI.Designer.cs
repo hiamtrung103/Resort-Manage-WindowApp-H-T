@@ -48,7 +48,9 @@
             pictureBox4 = new PictureBox();
             pictureBox3 = new PictureBox();
             panel1 = new Panel();
+            toggleButton1 = new CustomControls.RJControls.RJToggleButton();
             panel2 = new Panel();
+            label10 = new Label();
             label9 = new Label();
             label8 = new Label();
             pictureBox9 = new PictureBox();
@@ -81,6 +83,7 @@
             eCToolStripMenuItem = new ToolStripMenuItem();
             eDToolStripMenuItem = new ToolStripMenuItem();
             thoátChươngTrìnhToolStripMenuItem = new ToolStripMenuItem();
+            bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             bunifuCards1.SuspendLayout();
@@ -206,6 +209,7 @@
             // label7
             // 
             label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
             label7.Cursor = Cursors.Hand;
             label7.Font = new Font("Poppins", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = Color.Black;
@@ -220,6 +224,7 @@
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
             label6.Cursor = Cursors.Hand;
             label6.Font = new Font("Poppins", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             label6.ForeColor = Color.Black;
@@ -234,6 +239,7 @@
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
             label5.Cursor = Cursors.Hand;
             label5.Font = new Font("Poppins", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             label5.ForeColor = Color.Black;
@@ -248,6 +254,7 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
             label4.Cursor = Cursors.Hand;
             label4.Font = new Font("Poppins", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = Color.Black;
@@ -256,12 +263,14 @@
             label4.Size = new Size(103, 34);
             label4.TabIndex = 1;
             label4.Text = "Yeu thich";
+            label4.Click += label4_Click;
             label4.MouseEnter += label_MouseEnter;
             label4.MouseLeave += label_MouseLeave;
             // 
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
             label3.Cursor = Cursors.Hand;
             label3.Font = new Font("Poppins", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             label3.ForeColor = Color.Black;
@@ -270,12 +279,14 @@
             label3.Size = new Size(111, 34);
             label3.TabIndex = 1;
             label3.Text = "Trang chu";
+            label3.Click += label3_Click;
             label3.MouseEnter += label_MouseEnter;
             label3.MouseLeave += label_MouseLeave;
             // 
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Cursor = Cursors.Hand;
             label2.Font = new Font("Poppins", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.Gray;
@@ -334,6 +345,7 @@
             // 
             // pictureBox4
             // 
+            pictureBox4.BackColor = Color.Transparent;
             pictureBox4.Cursor = Cursors.Hand;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
             pictureBox4.Location = new Point(30, 160);
@@ -357,7 +369,9 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(toggleButton1);
             panel1.Controls.Add(panel2);
+            panel1.Controls.Add(label10);
             panel1.Controls.Add(label9);
             panel1.Controls.Add(label8);
             panel1.Controls.Add(pictureBox9);
@@ -368,6 +382,21 @@
             panel1.Size = new Size(250, 750);
             panel1.TabIndex = 3;
             // 
+            // toggleButton1
+            // 
+            toggleButton1.AutoSize = true;
+            toggleButton1.Location = new Point(88, 90);
+            toggleButton1.MinimumSize = new Size(45, 22);
+            toggleButton1.Name = "toggleButton1";
+            toggleButton1.OffBackColor = Color.Gray;
+            toggleButton1.OffToggleColor = Color.Gainsboro;
+            toggleButton1.OnBackColor = Color.Beige;
+            toggleButton1.OnToggleColor = Color.WhiteSmoke;
+            toggleButton1.Size = new Size(45, 22);
+            toggleButton1.TabIndex = 5;
+            toggleButton1.UseVisualStyleBackColor = true;
+            toggleButton1.CheckedChanged += checkBoxToggle_CheckedChanged;
+            // 
             // panel2
             // 
             panel2.BackColor = Color.Silver;
@@ -375,6 +404,17 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(220, 2);
             panel2.TabIndex = 4;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Poppins", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.ForeColor = Color.Black;
+            label10.Location = new Point(10, 90);
+            label10.Name = "label10";
+            label10.Size = new Size(72, 22);
+            label10.TabIndex = 4;
+            label10.Text = "Dark Mode";
             // 
             // label9
             // 
@@ -433,13 +473,13 @@
             rjDropdownMenu1.MenuItemTextColor = Color.Empty;
             rjDropdownMenu1.Name = "rjDropdownMenu1";
             rjDropdownMenu1.PrimaryColor = Color.Empty;
-            rjDropdownMenu1.Size = new Size(181, 158);
+            rjDropdownMenu1.Size = new Size(177, 136);
             // 
             // aToolStripMenuItem
             // 
             aToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { aAToolStripMenuItem, aBToolStripMenuItem, aCToolStripMenuItem, aDToolStripMenuItem });
             aToolStripMenuItem.Name = "aToolStripMenuItem";
-            aToolStripMenuItem.Size = new Size(180, 22);
+            aToolStripMenuItem.Size = new Size(176, 22);
             aToolStripMenuItem.Text = "A";
             // 
             // aAToolStripMenuItem
@@ -470,7 +510,7 @@
             // 
             bToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { bAToolStripMenuItem, bBToolStripMenuItem, bCToolStripMenuItem, bDToolStripMenuItem });
             bToolStripMenuItem.Name = "bToolStripMenuItem";
-            bToolStripMenuItem.Size = new Size(180, 22);
+            bToolStripMenuItem.Size = new Size(176, 22);
             bToolStripMenuItem.Text = "B";
             // 
             // bAToolStripMenuItem
@@ -501,7 +541,7 @@
             // 
             cToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { cAToolStripMenuItem, cBToolStripMenuItem, cCToolStripMenuItem, cDToolStripMenuItem });
             cToolStripMenuItem.Name = "cToolStripMenuItem";
-            cToolStripMenuItem.Size = new Size(180, 22);
+            cToolStripMenuItem.Size = new Size(176, 22);
             cToolStripMenuItem.Text = "C";
             // 
             // cAToolStripMenuItem
@@ -532,7 +572,7 @@
             // 
             dToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { dAToolStripMenuItem, dBToolStripMenuItem, dCToolStripMenuItem, dDToolStripMenuItem });
             dToolStripMenuItem.Name = "dToolStripMenuItem";
-            dToolStripMenuItem.Size = new Size(180, 22);
+            dToolStripMenuItem.Size = new Size(176, 22);
             dToolStripMenuItem.Text = "D";
             // 
             // dAToolStripMenuItem
@@ -563,39 +603,44 @@
             // 
             eToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { eAToolStripMenuItem, eBToolStripMenuItem, eCToolStripMenuItem, eDToolStripMenuItem });
             eToolStripMenuItem.Name = "eToolStripMenuItem";
-            eToolStripMenuItem.Size = new Size(180, 22);
+            eToolStripMenuItem.Size = new Size(176, 22);
             eToolStripMenuItem.Text = "E";
             // 
             // eAToolStripMenuItem
             // 
             eAToolStripMenuItem.Name = "eAToolStripMenuItem";
-            eAToolStripMenuItem.Size = new Size(180, 22);
+            eAToolStripMenuItem.Size = new Size(88, 22);
             eAToolStripMenuItem.Text = "EA";
             // 
             // eBToolStripMenuItem
             // 
             eBToolStripMenuItem.Name = "eBToolStripMenuItem";
-            eBToolStripMenuItem.Size = new Size(180, 22);
+            eBToolStripMenuItem.Size = new Size(88, 22);
             eBToolStripMenuItem.Text = "EB";
             // 
             // eCToolStripMenuItem
             // 
             eCToolStripMenuItem.Name = "eCToolStripMenuItem";
-            eCToolStripMenuItem.Size = new Size(180, 22);
+            eCToolStripMenuItem.Size = new Size(88, 22);
             eCToolStripMenuItem.Text = "EC";
             // 
             // eDToolStripMenuItem
             // 
             eDToolStripMenuItem.Name = "eDToolStripMenuItem";
-            eDToolStripMenuItem.Size = new Size(180, 22);
+            eDToolStripMenuItem.Size = new Size(88, 22);
             eDToolStripMenuItem.Text = "ED";
             // 
             // thoátChươngTrìnhToolStripMenuItem
             // 
             thoátChươngTrìnhToolStripMenuItem.Name = "thoátChươngTrìnhToolStripMenuItem";
-            thoátChươngTrìnhToolStripMenuItem.Size = new Size(180, 22);
+            thoátChươngTrìnhToolStripMenuItem.Size = new Size(176, 22);
             thoátChươngTrìnhToolStripMenuItem.Text = "Thoát chương trình";
             thoátChươngTrìnhToolStripMenuItem.Click += thoátChươngTrìnhToolStripMenuItem_Click;
+            // 
+            // bunifuElipse1
+            // 
+            bunifuElipse1.ElipseRadius = 16;
+            bunifuElipse1.TargetControl = this;
             // 
             // Main_UI
             // 
@@ -682,5 +727,8 @@
         private ToolStripMenuItem aCToolStripMenuItem;
         private ToolStripMenuItem aDToolStripMenuItem;
         private ToolStripMenuItem thoátChươngTrìnhToolStripMenuItem;
+        private CustomControls.RJControls.RJToggleButton toggleButton1;
+        private Label label10;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
     }
 }

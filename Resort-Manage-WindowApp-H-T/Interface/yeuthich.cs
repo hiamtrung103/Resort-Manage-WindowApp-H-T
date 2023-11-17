@@ -1,5 +1,4 @@
-﻿using Krypton.Toolkit;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Resort_Manage_WindowApp_H_T.Interface
 {
-    public partial class trangchu : Main_UI
+    public partial class yeuthich : Main_UI
     {
-        public trangchu()
+        public yeuthich()
         {
             InitializeComponent();
         }

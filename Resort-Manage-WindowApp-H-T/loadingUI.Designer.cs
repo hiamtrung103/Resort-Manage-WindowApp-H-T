@@ -39,6 +39,7 @@
             timer1 = new System.Windows.Forms.Timer(components);
             label3 = new Label();
             progressBar1 = new ProgressBar();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -92,6 +93,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.Black;
             label1.Location = new Point(63, 238);
             label1.Name = "label1";
             label1.Size = new Size(204, 25);
@@ -142,7 +144,7 @@
             // timer1
             // 
             timer1.Enabled = true;
-            timer1.Interval = 15;
+            timer1.Interval = 30;
             timer1.Tick += timer1_Tick;
             // 
             // label3
@@ -150,7 +152,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.Black;
-            label3.Location = new Point(69, 279);
+            label3.Location = new Point(69, 277);
             label3.Name = "label3";
             label3.Size = new Size(25, 25);
             label3.TabIndex = 0;
@@ -160,8 +162,19 @@
             // 
             progressBar1.Location = new Point(69, 264);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(321, 12);
+            progressBar1.Size = new Size(321, 10);
             progressBar1.TabIndex = 2;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Italic, GraphicsUnit.Point);
+            label4.ForeColor = Color.Gray;
+            label4.Location = new Point(69, 311);
+            label4.Name = "label4";
+            label4.Size = new Size(290, 20);
+            label4.TabIndex = 0;
+            label4.Text = "App quản lí booking resort số 1 việt nam";
             // 
             // loadingUI
             // 
@@ -174,6 +187,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(label2);
             Controls.Add(label3);
+            Controls.Add(label4);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "loadingUI";
@@ -199,5 +213,6 @@
         private System.Windows.Forms.Timer timer1;
         private Label label3;
         private ProgressBar progressBar1;
+        private Label label4;
     }
 }

@@ -1,4 +1,6 @@
-﻿using Krypton.Toolkit;
+﻿using Bunifu.Framework.UI;
+using Krypton.Toolkit;
+using Resort_Manage_WindowApp_H_T.Interface;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TheArtOfDev.HtmlRenderer.Adapters.Entities;
 
 namespace Resort_Manage_WindowApp_H_T
 {
@@ -73,6 +76,54 @@ namespace Resort_Manage_WindowApp_H_T
             {
                 Application.Exit();
             }
+        }
+
+        private void checkBoxToggle_CheckedChanged(object sender, EventArgs e)
+        {
+            if (toggleButton1.Checked)
+            {
+                panel1.BackColor = Color.FromArgb(24, 25, 26); ;
+                //panel5.BackColor = System.Drawing.Color.DarkGray; //24, 25, 26
+                bunifuCards1.BackColor = Color.FromArgb(24, 25, 26);
+                label1.ForeColor = System.Drawing.Color.White;
+                label3.ForeColor = System.Drawing.Color.White;
+                label4.ForeColor = System.Drawing.Color.White;
+                label5.ForeColor = System.Drawing.Color.White;
+                label6.ForeColor = System.Drawing.Color.White;
+                label7.ForeColor = System.Drawing.Color.White;
+                label8.ForeColor = System.Drawing.Color.White;
+                label9.ForeColor = System.Drawing.Color.White;
+                label10.ForeColor = System.Drawing.Color.White;
+            }
+            else
+            {
+                panel1.BackColor = System.Drawing.SystemColors.Control;
+                //panel5.BackColor = System.Drawing.SystemColors.Control;
+                bunifuCards1.BackColor = System.Drawing.Color.White;
+                label1.ForeColor = System.Drawing.Color.Black;
+                label3.ForeColor = System.Drawing.Color.Black;
+                label4.ForeColor = System.Drawing.Color.Black;
+                label5.ForeColor = System.Drawing.Color.Black;
+                label6.ForeColor = System.Drawing.Color.Black;
+                label7.ForeColor = System.Drawing.Color.Black;
+                label8.ForeColor = System.Drawing.Color.Black;
+                label9.ForeColor = System.Drawing.Color.Black;
+                label10.ForeColor = System.Drawing.Color.Black;
+            }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            trangchu UI = new trangchu();
+            UI.Show();
+            this.Hide();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            yeuthich UI = new yeuthich();
+            UI.Show();
+            this.Hide();
         }
     }
 }
