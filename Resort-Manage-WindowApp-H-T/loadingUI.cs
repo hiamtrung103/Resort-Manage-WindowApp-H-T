@@ -45,7 +45,7 @@ namespace Resort_Manage_WindowApp_H_T
 
                 await Task.Delay(1000);
 
-                trangchu UI = new trangchu();
+                Main_UI UI = new Main_UI();
                 UI.Show();
 
                 this.Hide();

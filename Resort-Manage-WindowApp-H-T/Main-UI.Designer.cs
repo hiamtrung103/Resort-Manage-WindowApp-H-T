@@ -1,4 +1,6 @@
-﻿namespace Resort_Manage_WindowApp_H_T
+﻿using Resort_Manage_WindowApp_H_T.Interface;
+
+namespace Resort_Manage_WindowApp_H_T
 {
     partial class Main_UI
     {
@@ -84,6 +86,7 @@
             eDToolStripMenuItem = new ToolStripMenuItem();
             thoátChươngTrìnhToolStripMenuItem = new ToolStripMenuItem();
             bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(components);
+            panelMain = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             bunifuCards1.SuspendLayout();
@@ -144,7 +147,6 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.logo;
             resources.ApplyResources(pictureBox1, "pictureBox1");
             pictureBox1.Name = "pictureBox1";
             pictureBox1.TabStop = false;
@@ -198,8 +200,9 @@
             label7.Cursor = Cursors.Hand;
             label7.ForeColor = Color.Black;
             label7.Name = "label7";
-            label7.MouseEnter += label_MouseEnter;
-            label7.MouseLeave += label_MouseLeave;
+            label7.Click += hotroOpen;
+            label7.MouseEnter += DoiMauLabel_MouseEnter;
+            label7.MouseLeave += DoiMauLabel_MouseLeave;
             // 
             // label6
             // 
@@ -208,8 +211,9 @@
             label6.Cursor = Cursors.Hand;
             label6.ForeColor = Color.Black;
             label6.Name = "label6";
-            label6.MouseEnter += label_MouseEnter;
-            label6.MouseLeave += label_MouseLeave;
+            label6.Click += lichsuOpen;
+            label6.MouseEnter += DoiMauLabel_MouseEnter;
+            label6.MouseLeave += DoiMauLabel_MouseLeave;
             // 
             // label5
             // 
@@ -218,8 +222,9 @@
             label5.Cursor = Cursors.Hand;
             label5.ForeColor = Color.Black;
             label5.Name = "label5";
-            label5.MouseEnter += label_MouseEnter;
-            label5.MouseLeave += label_MouseLeave;
+            label5.Click += datphongOpen;
+            label5.MouseEnter += DoiMauLabel_MouseEnter;
+            label5.MouseLeave += DoiMauLabel_MouseLeave;
             // 
             // label4
             // 
@@ -228,9 +233,9 @@
             label4.Cursor = Cursors.Hand;
             label4.ForeColor = Color.Black;
             label4.Name = "label4";
-            label4.Click += label4_Click;
-            label4.MouseEnter += label_MouseEnter;
-            label4.MouseLeave += label_MouseLeave;
+            label4.Click += yeuthichOpen;
+            label4.MouseEnter += DoiMauLabel_MouseEnter;
+            label4.MouseLeave += DoiMauLabel_MouseLeave;
             // 
             // label3
             // 
@@ -239,9 +244,9 @@
             label3.Cursor = Cursors.Hand;
             label3.ForeColor = Color.Black;
             label3.Name = "label3";
-            label3.Click += label3_Click;
-            label3.MouseEnter += label_MouseEnter;
-            label3.MouseLeave += label_MouseLeave;
+            label3.Click += trangchuOpen;
+            label3.MouseEnter += DoiMauLabel_MouseEnter;
+            label3.MouseLeave += DoiMauLabel_MouseLeave;
             // 
             // label2
             // 
@@ -250,9 +255,9 @@
             label2.Cursor = Cursors.Hand;
             label2.ForeColor = Color.Gray;
             label2.Name = "label2";
-            label2.Click += label2_Click;
-            label2.MouseEnter += label2_MouseEnter;
-            label2.MouseLeave += label_MouseLeave;
+            label2.Click += DangXuat_Click;
+            label2.MouseEnter += DoiMauLabel2_MouseEnter;
+            label2.MouseLeave += DoiMauLabel_MouseLeave;
             // 
             // pictureBox8
             // 
@@ -260,6 +265,7 @@
             resources.ApplyResources(pictureBox8, "pictureBox8");
             pictureBox8.Name = "pictureBox8";
             pictureBox8.TabStop = false;
+            pictureBox8.Click += hotroOpen;
             // 
             // pictureBox7
             // 
@@ -267,6 +273,7 @@
             resources.ApplyResources(pictureBox7, "pictureBox7");
             pictureBox7.Name = "pictureBox7";
             pictureBox7.TabStop = false;
+            pictureBox7.Click += lichsuOpen;
             // 
             // pictureBox6
             // 
@@ -274,6 +281,7 @@
             resources.ApplyResources(pictureBox6, "pictureBox6");
             pictureBox6.Name = "pictureBox6";
             pictureBox6.TabStop = false;
+            pictureBox6.Click += datphongOpen;
             // 
             // pictureBox5
             // 
@@ -296,7 +304,7 @@
             resources.ApplyResources(pictureBox3, "pictureBox3");
             pictureBox3.Name = "pictureBox3";
             pictureBox3.TabStop = false;
-            pictureBox3.Click += label2_Click;
+            pictureBox3.Click += DangXuat_Click;
             // 
             // panel1
             // 
@@ -319,7 +327,7 @@
             toggleButton1.OnBackColor = Color.Beige;
             toggleButton1.OnToggleColor = Color.WhiteSmoke;
             toggleButton1.UseVisualStyleBackColor = true;
-            toggleButton1.CheckedChanged += checkBoxToggle_CheckedChanged;
+            toggleButton1.CheckedChanged += ktraBatTat_CheckedChanged;
             // 
             // panel2
             // 
@@ -349,7 +357,7 @@
             resources.ApplyResources(pictureBox9, "pictureBox9");
             pictureBox9.Name = "pictureBox9";
             pictureBox9.TabStop = false;
-            pictureBox9.Click += pictureBox9_Click;
+            pictureBox9.Click += menu_Click;
             // 
             // panel3
             // 
@@ -514,20 +522,28 @@
             bunifuElipse1.ElipseRadius = 16;
             bunifuElipse1.TargetControl = this;
             // 
+            // panelMain
+            // 
+            resources.ApplyResources(panelMain, "panelMain");
+            panelMain.Name = "panelMain";
+            // 
             // Main_UI
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(panelMain);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel1);
             Controls.Add(bunifuCards1);
             FormBorderStyle = FormBorderStyle.None;
+            IsMdiContainer = true;
             Name = "Main_UI";
             Palette = kryptonCustomPaletteBase1;
             PaletteMode = Krypton.Toolkit.PaletteMode.Custom;
             StateCommon.Border.DrawBorders = Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom | Krypton.Toolkit.PaletteDrawBorders.Left | Krypton.Toolkit.PaletteDrawBorders.Right;
             StateCommon.Border.Width = 1;
+            Load += Main_UI_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             bunifuCards1.ResumeLayout(false);
@@ -601,5 +617,6 @@
         private CustomControls.RJControls.RJToggleButton toggleButton1;
         private Label label10;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Panel panelMain;
     }
 }
