@@ -32,11 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             kryptonCustomPaletteBase1 = new Krypton.Toolkit.KryptonCustomPaletteBase(components);
             kryptonCustomPaletteBase2 = new Krypton.Toolkit.KryptonCustomPaletteBase(components);
-            toggleButton1 = new CustomControls.RJControls.RJToggleButton();
-            label3 = new Label();
-            pictureBox3 = new PictureBox();
-            panel4 = new Panel();
-            label6 = new Label();
             kryptonRadioButton1 = new Krypton.Toolkit.KryptonRadioButton();
             txtUserName = new CustomControls.RJControls.RJTextBox();
             button3 = new Button();
@@ -62,8 +57,11 @@
             label4 = new Label();
             txtPass = new CustomControls.RJControls.RJTextBox();
             label5 = new Label();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            panel4.SuspendLayout();
+            label6 = new Label();
+            pictureBox3 = new PictureBox();
+            label3 = new Label();
+            toggleButton1 = new CustomControls.RJControls.RJToggleButton();
+            panel4 = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             panelMain.SuspendLayout();
             bunifuCards2.SuspendLayout();
@@ -72,6 +70,8 @@
             bunifuCards3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            panel4.SuspendLayout();
             SuspendLayout();
             // 
             // kryptonCustomPaletteBase1
@@ -167,64 +167,6 @@
             kryptonCustomPaletteBase2.HeaderStyles.HeaderForm.StateCommon.Content.Padding = new Padding(10, -1, -1, -1);
             kryptonCustomPaletteBase2.ThemeName = "";
             kryptonCustomPaletteBase2.UseKryptonFileDialogs = true;
-            // 
-            // toggleButton1
-            // 
-            toggleButton1.AutoSize = true;
-            toggleButton1.Location = new Point(917, 17);
-            toggleButton1.MinimumSize = new Size(45, 22);
-            toggleButton1.Name = "toggleButton1";
-            toggleButton1.OffBackColor = Color.Gray;
-            toggleButton1.OffToggleColor = Color.Gainsboro;
-            toggleButton1.OnBackColor = Color.Beige;
-            toggleButton1.OnToggleColor = Color.WhiteSmoke;
-            toggleButton1.Size = new Size(45, 22);
-            toggleButton1.TabIndex = 3;
-            toggleButton1.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Poppins", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.ForeColor = Color.FromArgb(25, 103, 219);
-            label3.Location = new Point(648, 17);
-            label3.Name = "label3";
-            label3.Size = new Size(168, 42);
-            label3.TabIndex = 2;
-            label3.Text = "Trung Resort";
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(438, 7);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(204, 48);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 1;
-            pictureBox3.TabStop = false;
-            // 
-            // panel4
-            // 
-            panel4.BackColor = Color.Gainsboro;
-            panel4.Controls.Add(toggleButton1);
-            panel4.Controls.Add(label3);
-            panel4.Controls.Add(pictureBox3);
-            panel4.Controls.Add(label6);
-            panel4.Location = new Point(-5, -1);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(1000, 250);
-            panel4.TabIndex = 18;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Poppins", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.ForeColor = Color.Black;
-            label6.Location = new Point(905, 0);
-            label6.Name = "label6";
-            label6.Size = new Size(72, 22);
-            label6.TabIndex = 2;
-            label6.Text = "Dark Mode";
             // 
             // kryptonRadioButton1
             // 
@@ -671,6 +613,64 @@
             label5.TabIndex = 2;
             label5.Text = "Mật Khẩu";
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Poppins", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = Color.Black;
+            label6.Location = new Point(905, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(72, 22);
+            label6.TabIndex = 2;
+            label6.Text = "Dark Mode";
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(438, 7);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(204, 48);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 1;
+            pictureBox3.TabStop = false;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Poppins", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.FromArgb(25, 103, 219);
+            label3.Location = new Point(648, 17);
+            label3.Name = "label3";
+            label3.Size = new Size(168, 42);
+            label3.TabIndex = 2;
+            label3.Text = "Trung Resort";
+            // 
+            // toggleButton1
+            // 
+            toggleButton1.AutoSize = true;
+            toggleButton1.Location = new Point(917, 17);
+            toggleButton1.MinimumSize = new Size(45, 22);
+            toggleButton1.Name = "toggleButton1";
+            toggleButton1.OffBackColor = Color.Gray;
+            toggleButton1.OffToggleColor = Color.Gainsboro;
+            toggleButton1.OnBackColor = Color.Beige;
+            toggleButton1.OnToggleColor = Color.WhiteSmoke;
+            toggleButton1.Size = new Size(45, 22);
+            toggleButton1.TabIndex = 3;
+            toggleButton1.UseVisualStyleBackColor = true;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = Color.Gainsboro;
+            panel4.Controls.Add(toggleButton1);
+            panel4.Controls.Add(label3);
+            panel4.Controls.Add(pictureBox3);
+            panel4.Controls.Add(label6);
+            panel4.Location = new Point(-5, -1);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(1000, 250);
+            panel4.TabIndex = 18;
+            // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -684,9 +684,6 @@
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             panelMain.ResumeLayout(false);
             bunifuCards2.ResumeLayout(false);
@@ -696,6 +693,9 @@
             bunifuCards3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -705,11 +705,6 @@
         private Krypton.Toolkit.KryptonTextBox txtPassword;
         private Krypton.Toolkit.KryptonCheckBox kryptonCheckBox1;
         private Krypton.Toolkit.KryptonCustomPaletteBase kryptonCustomPaletteBase2;
-        private CustomControls.RJControls.RJToggleButton toggleButton1;
-        private Label label3;
-        private PictureBox pictureBox3;
-        private Panel panel4;
-        private Label label6;
         private Krypton.Toolkit.KryptonRadioButton kryptonRadioButton1;
         private CustomControls.RJControls.RJTextBox txtUserName;
         private Button button3;
@@ -735,5 +730,10 @@
         private Label label4;
         private CustomControls.RJControls.RJTextBox txtPass;
         private Label label5;
+        private Panel panel4;
+        private CustomControls.RJControls.RJToggleButton toggleButton1;
+        private Label label3;
+        private PictureBox pictureBox3;
+        private Label label6;
     }
 }

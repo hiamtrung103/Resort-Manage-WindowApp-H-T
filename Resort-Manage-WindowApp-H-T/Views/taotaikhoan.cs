@@ -21,14 +21,14 @@ namespace Resort_Manage_WindowApp_H_T.Frm
 
         private void AnHienMK_Click(object sender, EventArgs e)
         {
-            if (txtMatKhauReg.PasswordChar == true || txtPass2.PasswordChar == true)
+            if (txtMatKhauMoi.PasswordChar == true || txtPass2.PasswordChar == true)
             {
-                txtMatKhauReg.PasswordChar = false;
+                txtMatKhauMoi.PasswordChar = false;
                 txtPass2.PasswordChar = false;
             }
             else
             {
-                txtMatKhauReg.PasswordChar = true;
+                txtMatKhauMoi.PasswordChar = true;
                 txtPass2.PasswordChar = true;
             }
         }
@@ -40,6 +40,7 @@ namespace Resort_Manage_WindowApp_H_T.Frm
             UI.Show();
         }
 
+        // Trong form đăng ký (taotaikhoan)
         private void btnDangKy_click(object sender, EventArgs e)
         {
             using (SqlConnection conn = new SqlConnection(@"Data Source=Trunq;Initial Catalog=NguoiDung;Integrated Security=True"))
@@ -47,41 +48,32 @@ namespace Resort_Manage_WindowApp_H_T.Frm
                 try
                 {
                     conn.Open();
-                    string tkMoi = txtTenDangNhapReg.Text;
-                    string mkMoi = txtMatKhauReg.Text;
+                    string tkMoi = txtTenDangKy.Texts; // Thay thế bằng tên thực tế của textbox để nhập tên đăng nhập
+                    string mkMoi = txtMatKhauMoi.Texts; // Thay thế bằng tên thực tế của textbox để nhập mật khẩu
 
-                    string sqlCheck = "SELECT COUNT(*) FROM ngDung WHERE TaiKhoan = @tkMoi";
-
-                    using (SqlCommand cmdCheck = new SqlCommand(sqlCheck, conn))
+                    // Kiểm tra xem tên đăng nhập đã tồn tại trong cơ sở dữ liệu chưa
+                    string truyVanKiemTra = "SELECT COUNT(*) FROM ngDung WHERE TaiKhoan=@tkMoi";
+                    using (SqlCommand cmdKiemTra = new SqlCommand(truyVanKiemTra, conn))
                     {
-                        cmdCheck.Parameters.AddWithValue("@tkMoi", tkMoi);
+                        cmdKiemTra.Parameters.AddWithValue("@tkMoi", tkMoi);
+                        int soLuongNguoiDung = (int)cmdKiemTra.ExecuteScalar();
 
-                        int count = Convert.ToInt32(cmdCheck.ExecuteScalar());
-
-                        if (count > 0)
+                        if (soLuongNguoiDung > 0)
                         {
-                            MessageBox.Show("Tài khoản đã tồn tại. Vui lòng chọn tên đăng nhập khác.");
+                            MessageBox.Show("Tên đăng nhập đã tồn tại. Vui lòng chọn tên khác.");
                             return;
                         }
                     }
 
-                    string sqlInsert = "INSERT INTO ngDung (TaiKhoan, MatKhau) VALUES (@tkMoi, @mkMoi)";
-
-                    using (SqlCommand cmdInsert = new SqlCommand(sqlInsert, conn))
+                    // Thêm người dùng mới vào cơ sở dữ liệu
+                    string truyVanThemMoi = "INSERT INTO ngDung (TaiKhoan, MatKhau) VALUES (@tkMoi, @mkMoi)";
+                    using (SqlCommand cmdThemMoi = new SqlCommand(truyVanThemMoi, conn))
                     {
-                        cmdInsert.Parameters.AddWithValue("@tkMoi", tkMoi);
-                        cmdInsert.Parameters.AddWithValue("@mkMoi", mkMoi);
+                        cmdThemMoi.Parameters.AddWithValue("@tkMoi", tkMoi);
+                        cmdThemMoi.Parameters.AddWithValue("@mkMoi", mkMoi);
+                        cmdThemMoi.ExecuteNonQuery();
 
-                        int soDongAnhHuong = cmdInsert.ExecuteNonQuery();
-
-                        if (soDongAnhHuong > 0)
-                        {
-                            MessageBox.Show("Đăng ký thành công");
-                        }
-                        else
-                        {
-                            MessageBox.Show("Đăng ký thất bại");
-                        }
+                        MessageBox.Show("Đăng ký thành công");
                     }
                 }
                 catch (Exception ex)

@@ -15,7 +15,7 @@ namespace Resort_Manage_WindowApp_H_T.Views
 {
     public partial class NhanVien : KryptonForm
     {
-        string connectionString = @"Data Source=TRUNQ;Initial Catalog=NhanVien;Integrated Security=True";
+        string connectionString = @"Data Source=TRUNQ;Initial Catalog=NguoiDung;Integrated Security=True";
         SqlConnection con;
         SqlCommand cmd;
         SqlDataAdapter adt;
@@ -32,7 +32,7 @@ namespace Resort_Manage_WindowApp_H_T.Views
             try
             {
                 con.Open();
-                cmd = new SqlCommand("SELECT * FROM nhanvien", con);
+                cmd = new SqlCommand("SELECT * FROM ngDung", con);
                 adt = new SqlDataAdapter(cmd);
                 dt.Clear();
                 adt.Fill(dt);

@@ -36,7 +36,7 @@
             kryptonButton2 = new Krypton.Toolkit.KryptonButton();
             linkLabel1 = new LinkLabel();
             rjRadioButton1 = new Control.RJRadioButton();
-            txtTenDangNhapReg = new CustomControls.RJControls.RJTextBox();
+            txtTenDangKy = new CustomControls.RJControls.RJTextBox();
             label1 = new Label();
             pictureBox3 = new PictureBox();
             pictureBox1 = new PictureBox();
@@ -48,7 +48,7 @@
             label4 = new Label();
             txtPass2 = new CustomControls.RJControls.RJTextBox();
             label7 = new Label();
-            txtMatKhauReg = new CustomControls.RJControls.RJTextBox();
+            txtMatKhauMoi = new CustomControls.RJControls.RJTextBox();
             label3 = new Label();
             label5 = new Label();
             bunifuCards2 = new Bunifu.Framework.UI.BunifuCards();
@@ -88,7 +88,7 @@
             bunifuCards3.Controls.Add(kryptonButton2);
             bunifuCards3.Controls.Add(linkLabel1);
             bunifuCards3.Controls.Add(rjRadioButton1);
-            bunifuCards3.Controls.Add(txtTenDangNhapReg);
+            bunifuCards3.Controls.Add(txtTenDangKy);
             bunifuCards3.Controls.Add(label1);
             bunifuCards3.Controls.Add(pictureBox3);
             bunifuCards3.Controls.Add(pictureBox1);
@@ -100,7 +100,7 @@
             bunifuCards3.Controls.Add(label4);
             bunifuCards3.Controls.Add(txtPass2);
             bunifuCards3.Controls.Add(label7);
-            bunifuCards3.Controls.Add(txtMatKhauReg);
+            bunifuCards3.Controls.Add(txtMatKhauMoi);
             bunifuCards3.Controls.Add(label3);
             bunifuCards3.Controls.Add(label5);
             bunifuCards3.IndicatorColor = Color.Transparent;
@@ -210,27 +210,27 @@
             rjRadioButton1.UnCheckedColor = Color.Gray;
             rjRadioButton1.UseVisualStyleBackColor = true;
             // 
-            // txtTenDangNhapReg
+            // txtTenDangKy
             // 
-            txtTenDangNhapReg.BackColor = SystemColors.Window;
-            txtTenDangNhapReg.BorderColor = Color.MediumSlateBlue;
-            txtTenDangNhapReg.BorderFocusColor = Color.HotPink;
-            txtTenDangNhapReg.BorderRadius = 10;
-            txtTenDangNhapReg.BorderSize = 2;
-            txtTenDangNhapReg.Font = new Font("Microsoft Sans Serif", 9.5F, FontStyle.Regular, GraphicsUnit.Point);
-            txtTenDangNhapReg.ForeColor = Color.FromArgb(64, 64, 64);
-            txtTenDangNhapReg.Location = new Point(34, 100);
-            txtTenDangNhapReg.Margin = new Padding(4);
-            txtTenDangNhapReg.Multiline = false;
-            txtTenDangNhapReg.Name = "txtTenDangNhapReg";
-            txtTenDangNhapReg.Padding = new Padding(10, 7, 10, 7);
-            txtTenDangNhapReg.PasswordChar = false;
-            txtTenDangNhapReg.PlaceholderColor = Color.DarkGray;
-            txtTenDangNhapReg.PlaceholderText = "Tài khoản";
-            txtTenDangNhapReg.Size = new Size(266, 31);
-            txtTenDangNhapReg.TabIndex = 19;
-            txtTenDangNhapReg.Texts = "";
-            txtTenDangNhapReg.UnderlinedStyle = false;
+            txtTenDangKy.BackColor = SystemColors.Window;
+            txtTenDangKy.BorderColor = Color.MediumSlateBlue;
+            txtTenDangKy.BorderFocusColor = Color.HotPink;
+            txtTenDangKy.BorderRadius = 10;
+            txtTenDangKy.BorderSize = 2;
+            txtTenDangKy.Font = new Font("Microsoft Sans Serif", 9.5F, FontStyle.Regular, GraphicsUnit.Point);
+            txtTenDangKy.ForeColor = Color.FromArgb(64, 64, 64);
+            txtTenDangKy.Location = new Point(34, 100);
+            txtTenDangKy.Margin = new Padding(4);
+            txtTenDangKy.Multiline = false;
+            txtTenDangKy.Name = "txtTenDangKy";
+            txtTenDangKy.Padding = new Padding(10, 7, 10, 7);
+            txtTenDangKy.PasswordChar = false;
+            txtTenDangKy.PlaceholderColor = Color.DarkGray;
+            txtTenDangKy.PlaceholderText = "Tài khoản";
+            txtTenDangKy.Size = new Size(266, 31);
+            txtTenDangKy.TabIndex = 19;
+            txtTenDangKy.Texts = "";
+            txtTenDangKy.UnderlinedStyle = false;
             // 
             // label1
             // 
@@ -365,27 +365,27 @@
             label7.TabIndex = 2;
             label7.Text = "Ngày sinh";
             // 
-            // txtMatKhauReg
+            // txtMatKhauMoi
             // 
-            txtMatKhauReg.BackColor = SystemColors.Window;
-            txtMatKhauReg.BorderColor = Color.MediumSlateBlue;
-            txtMatKhauReg.BorderFocusColor = Color.HotPink;
-            txtMatKhauReg.BorderRadius = 10;
-            txtMatKhauReg.BorderSize = 2;
-            txtMatKhauReg.Font = new Font("Microsoft Sans Serif", 9.5F, FontStyle.Regular, GraphicsUnit.Point);
-            txtMatKhauReg.ForeColor = Color.FromArgb(64, 64, 64);
-            txtMatKhauReg.Location = new Point(34, 154);
-            txtMatKhauReg.Margin = new Padding(4);
-            txtMatKhauReg.Multiline = false;
-            txtMatKhauReg.Name = "txtMatKhauReg";
-            txtMatKhauReg.Padding = new Padding(10, 7, 10, 7);
-            txtMatKhauReg.PasswordChar = true;
-            txtMatKhauReg.PlaceholderColor = Color.DarkGray;
-            txtMatKhauReg.PlaceholderText = "Mật khẩu";
-            txtMatKhauReg.Size = new Size(266, 31);
-            txtMatKhauReg.TabIndex = 19;
-            txtMatKhauReg.Texts = "";
-            txtMatKhauReg.UnderlinedStyle = false;
+            txtMatKhauMoi.BackColor = SystemColors.Window;
+            txtMatKhauMoi.BorderColor = Color.MediumSlateBlue;
+            txtMatKhauMoi.BorderFocusColor = Color.HotPink;
+            txtMatKhauMoi.BorderRadius = 10;
+            txtMatKhauMoi.BorderSize = 2;
+            txtMatKhauMoi.Font = new Font("Microsoft Sans Serif", 9.5F, FontStyle.Regular, GraphicsUnit.Point);
+            txtMatKhauMoi.ForeColor = Color.FromArgb(64, 64, 64);
+            txtMatKhauMoi.Location = new Point(34, 154);
+            txtMatKhauMoi.Margin = new Padding(4);
+            txtMatKhauMoi.Multiline = false;
+            txtMatKhauMoi.Name = "txtMatKhauMoi";
+            txtMatKhauMoi.Padding = new Padding(10, 7, 10, 7);
+            txtMatKhauMoi.PasswordChar = true;
+            txtMatKhauMoi.PlaceholderColor = Color.DarkGray;
+            txtMatKhauMoi.PlaceholderText = "Mật khẩu";
+            txtMatKhauMoi.Size = new Size(266, 31);
+            txtMatKhauMoi.TabIndex = 19;
+            txtMatKhauMoi.Texts = "";
+            txtMatKhauMoi.UnderlinedStyle = false;
             // 
             // label3
             // 
@@ -529,7 +529,7 @@
         private Krypton.Toolkit.KryptonButton kryptonButton2;
         private LinkLabel linkLabel1;
         private Control.RJRadioButton rjRadioButton1;
-        private CustomControls.RJControls.RJTextBox txtTenDangNhapReg;
+        private CustomControls.RJControls.RJTextBox txtTenDangKy;
         private Label label1;
         private PictureBox pictureBox3;
         private PictureBox pictureBox1;
@@ -541,7 +541,7 @@
         private Label label4;
         private CustomControls.RJControls.RJTextBox txtPass2;
         private Label label7;
-        private CustomControls.RJControls.RJTextBox txtMatKhauReg;
+        private CustomControls.RJControls.RJTextBox txtMatKhauMoi;
         private Label label3;
         private Label label5;
         private Bunifu.Framework.UI.BunifuCards bunifuCards2;
