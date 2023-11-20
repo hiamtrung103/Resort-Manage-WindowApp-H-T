@@ -46,7 +46,7 @@
             label6 = new Label();
             label2 = new Label();
             label4 = new Label();
-            txtPass2 = new CustomControls.RJControls.RJTextBox();
+            txtMatKhauXacNhan = new CustomControls.RJControls.RJTextBox();
             label7 = new Label();
             txtMatKhauMoi = new CustomControls.RJControls.RJTextBox();
             label3 = new Label();
@@ -98,7 +98,7 @@
             bunifuCards3.Controls.Add(label6);
             bunifuCards3.Controls.Add(label2);
             bunifuCards3.Controls.Add(label4);
-            bunifuCards3.Controls.Add(txtPass2);
+            bunifuCards3.Controls.Add(txtMatKhauXacNhan);
             bunifuCards3.Controls.Add(label7);
             bunifuCards3.Controls.Add(txtMatKhauMoi);
             bunifuCards3.Controls.Add(label3);
@@ -331,27 +331,27 @@
             label4.TabIndex = 2;
             label4.Text = "Tài Khoản";
             // 
-            // txtPass2
+            // txtMatKhauXacNhan
             // 
-            txtPass2.BackColor = SystemColors.Window;
-            txtPass2.BorderColor = Color.MediumSlateBlue;
-            txtPass2.BorderFocusColor = Color.HotPink;
-            txtPass2.BorderRadius = 10;
-            txtPass2.BorderSize = 2;
-            txtPass2.Font = new Font("Microsoft Sans Serif", 9.5F, FontStyle.Regular, GraphicsUnit.Point);
-            txtPass2.ForeColor = Color.FromArgb(64, 64, 64);
-            txtPass2.Location = new Point(34, 208);
-            txtPass2.Margin = new Padding(4);
-            txtPass2.Multiline = false;
-            txtPass2.Name = "txtPass2";
-            txtPass2.Padding = new Padding(10, 7, 10, 7);
-            txtPass2.PasswordChar = true;
-            txtPass2.PlaceholderColor = Color.DarkGray;
-            txtPass2.PlaceholderText = "Mật khẩu";
-            txtPass2.Size = new Size(266, 31);
-            txtPass2.TabIndex = 19;
-            txtPass2.Texts = "";
-            txtPass2.UnderlinedStyle = false;
+            txtMatKhauXacNhan.BackColor = SystemColors.Window;
+            txtMatKhauXacNhan.BorderColor = Color.MediumSlateBlue;
+            txtMatKhauXacNhan.BorderFocusColor = Color.HotPink;
+            txtMatKhauXacNhan.BorderRadius = 10;
+            txtMatKhauXacNhan.BorderSize = 2;
+            txtMatKhauXacNhan.Font = new Font("Microsoft Sans Serif", 9.5F, FontStyle.Regular, GraphicsUnit.Point);
+            txtMatKhauXacNhan.ForeColor = Color.FromArgb(64, 64, 64);
+            txtMatKhauXacNhan.Location = new Point(34, 208);
+            txtMatKhauXacNhan.Margin = new Padding(4);
+            txtMatKhauXacNhan.Multiline = false;
+            txtMatKhauXacNhan.Name = "txtMatKhauXacNhan";
+            txtMatKhauXacNhan.Padding = new Padding(10, 7, 10, 7);
+            txtMatKhauXacNhan.PasswordChar = true;
+            txtMatKhauXacNhan.PlaceholderColor = Color.DarkGray;
+            txtMatKhauXacNhan.PlaceholderText = "Mật khẩu";
+            txtMatKhauXacNhan.Size = new Size(266, 31);
+            txtMatKhauXacNhan.TabIndex = 19;
+            txtMatKhauXacNhan.Texts = "";
+            txtMatKhauXacNhan.UnderlinedStyle = false;
             // 
             // label7
             // 
@@ -539,7 +539,7 @@
         private Label label6;
         private Label label2;
         private Label label4;
-        private CustomControls.RJControls.RJTextBox txtPass2;
+        private CustomControls.RJControls.RJTextBox txtMatKhauXacNhan;
         private Label label7;
         private CustomControls.RJControls.RJTextBox txtMatKhauMoi;
         private Label label3;

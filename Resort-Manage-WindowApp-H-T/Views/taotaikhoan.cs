@@ -21,15 +21,15 @@ namespace Resort_Manage_WindowApp_H_T.Frm
 
         private void AnHienMK_Click(object sender, EventArgs e)
         {
-            if (txtMatKhauMoi.PasswordChar == true || txtPass2.PasswordChar == true)
+            if (txtMatKhauMoi.PasswordChar == true || txtMatKhauXacNhan.PasswordChar == true)
             {
                 txtMatKhauMoi.PasswordChar = false;
-                txtPass2.PasswordChar = false;
+                txtMatKhauXacNhan.PasswordChar = false;
             }
             else
             {
                 txtMatKhauMoi.PasswordChar = true;
-                txtPass2.PasswordChar = true;
+                txtMatKhauXacNhan.PasswordChar = true;
             }
         }
 
@@ -40,7 +40,6 @@ namespace Resort_Manage_WindowApp_H_T.Frm
             UI.Show();
         }
 
-        // Trong form đăng ký (taotaikhoan)
         private void btnDangKy_click(object sender, EventArgs e)
         {
             using (SqlConnection conn = new SqlConnection(@"Data Source=Trunq;Initial Catalog=NguoiDung;Integrated Security=True"))
@@ -48,10 +47,9 @@ namespace Resort_Manage_WindowApp_H_T.Frm
                 try
                 {
                     conn.Open();
-                    string tkMoi = txtTenDangKy.Texts; // Thay thế bằng tên thực tế của textbox để nhập tên đăng nhập
-                    string mkMoi = txtMatKhauMoi.Texts; // Thay thế bằng tên thực tế của textbox để nhập mật khẩu
+                    string tkMoi = txtTenDangKy.Texts;
+                    string mkMoi = txtMatKhauMoi.Texts;
 
-                    // Kiểm tra xem tên đăng nhập đã tồn tại trong cơ sở dữ liệu chưa
                     string truyVanKiemTra = "SELECT COUNT(*) FROM ngDung WHERE TaiKhoan=@tkMoi";
                     using (SqlCommand cmdKiemTra = new SqlCommand(truyVanKiemTra, conn))
                     {
@@ -65,7 +63,6 @@ namespace Resort_Manage_WindowApp_H_T.Frm
                         }
                     }
 
-                    // Thêm người dùng mới vào cơ sở dữ liệu
                     string truyVanThemMoi = "INSERT INTO ngDung (TaiKhoan, MatKhau) VALUES (@tkMoi, @mkMoi)";
                     using (SqlCommand cmdThemMoi = new SqlCommand(truyVanThemMoi, conn))
                     {
@@ -82,6 +79,7 @@ namespace Resort_Manage_WindowApp_H_T.Frm
                 }
             }
         }
+
 
         private void taotaikhoan_Load(object sender, EventArgs e)
         {

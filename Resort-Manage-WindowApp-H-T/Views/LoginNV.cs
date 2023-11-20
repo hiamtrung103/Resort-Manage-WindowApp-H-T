@@ -75,5 +75,16 @@ namespace Resort_Manage_WindowApp_H_T.Frm_Log_Reg
 
         }
 
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có chuyển về user đăng nhập hay ko?", "Chuyển về user đăng nhập", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                this.Hide();
+                Main UI = new Main();
+                UI.Show();
+            }
+        }
     }
 }

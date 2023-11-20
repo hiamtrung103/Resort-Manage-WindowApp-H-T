@@ -28,7 +28,6 @@ namespace Resort_Manage_WindowApp_H_T
                     conn.Open();
                     string tk = txtUserName.Texts;
                     string mk = txtPass.Texts;
-
                     string sql = "SELECT * FROM ngDung WHERE TaiKhoan=@tk AND MatKhau=@mk";
 
                     using (SqlCommand cmd = new SqlCommand(sql, conn))
@@ -48,6 +47,10 @@ namespace Resort_Manage_WindowApp_H_T
                                 UI.Show();
                                 MessageBox.Show("Đăng nhập thành công");
                             }
+                            else if (string.IsNullOrEmpty(txtUserName.Texts) || string.IsNullOrEmpty(txtPass.Texts))
+                            {
+                                MessageBox.Show("Bạn cần điền đủ thông tin đăng nhập để có thể tiếp tục", "Thiếu thông tin đăng nhập");
+                            }
                             else
                             {
                                 MessageBox.Show("Đăng nhập thất bại");
@@ -64,6 +67,7 @@ namespace Resort_Manage_WindowApp_H_T
 
         private void btnDangKy_click(object sender, EventArgs e)
         {
+
             this.Hide();
             taotaikhoan UI = new taotaikhoan();
             UI.Show();
@@ -71,9 +75,14 @@ namespace Resort_Manage_WindowApp_H_T
 
         private void btnNhanVien_click(object sender, EventArgs e)
         {
-            this.Hide();
-            LoginNV UI = new LoginNV();
-            UI.Show();
+            DialogResult result = MessageBox.Show("Đây là phần đăng nhập dành riêng cho Administrator/Staff bạn có chắc chắn muốn chuyển ko?", "Chuyển sang Administrator/Staff đăng nhập", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                this.Hide();
+                LoginNV UI = new LoginNV();
+                UI.Show();
+            }
         }
 
         private void Hien_An_MK_Click(object sender, EventArgs e)
