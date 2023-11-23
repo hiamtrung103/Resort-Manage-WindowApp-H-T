@@ -63,6 +63,26 @@ namespace Resort_Manage_WindowApp_H_T.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap facebook_48 {
+            get {
+                object obj = ResourceManager.GetObject("facebook-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap google_48 {
+            get {
+                object obj = ResourceManager.GetObject("google-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap green16 {
             get {
                 object obj = ResourceManager.GetObject("green16", resourceCulture);
@@ -76,6 +96,16 @@ namespace Resort_Manage_WindowApp_H_T.Properties {
         internal static System.Drawing.Bitmap red_16 {
             get {
                 object obj = ResourceManager.GetObject("red-16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap twitter_48 {
+            get {
+                object obj = ResourceManager.GetObject("twitter-48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

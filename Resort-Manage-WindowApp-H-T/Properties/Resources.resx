@@ -118,13 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="red-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\red-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="yellow-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellow-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="green16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\green16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="yellow-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yellow-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="red-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facebook-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\facebook-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="google-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\google-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="twitter-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\twitter-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

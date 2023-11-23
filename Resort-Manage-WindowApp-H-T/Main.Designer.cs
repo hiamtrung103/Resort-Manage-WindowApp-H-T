@@ -47,6 +47,7 @@
             rjButton1 = new CustomControls.RJControls.RJButton();
             panel3 = new Panel();
             bunifuCards3 = new Bunifu.Framework.UI.BunifuCards();
+            rjRadioButton1 = new Control.RJRadioButton();
             linkLabel1 = new LinkLabel();
             pictureBox5 = new PictureBox();
             btnDangKy = new Krypton.Toolkit.KryptonButton();
@@ -61,7 +62,6 @@
             label3 = new Label();
             pictureBox3 = new PictureBox();
             label6 = new Label();
-            rjRadioButton1 = new Control.RJRadioButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             panelMain.SuspendLayout();
             bunifuCards2.SuspendLayout();
@@ -240,6 +240,7 @@
             button1.TabIndex = 13;
             button1.Text = "Google";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // panel2
             // 
@@ -409,6 +410,22 @@
             bunifuCards3.ShadowDepth = 20;
             bunifuCards3.Size = new Size(488, 280);
             bunifuCards3.TabIndex = 17;
+            // 
+            // rjRadioButton1
+            // 
+            rjRadioButton1.AutoSize = true;
+            rjRadioButton1.CheckedColor = Color.MediumSlateBlue;
+            rjRadioButton1.ForeColor = Color.Black;
+            rjRadioButton1.Location = new Point(41, 191);
+            rjRadioButton1.MinimumSize = new Size(0, 21);
+            rjRadioButton1.Name = "rjRadioButton1";
+            rjRadioButton1.Padding = new Padding(10, 0, 0, 0);
+            rjRadioButton1.Size = new Size(95, 21);
+            rjRadioButton1.TabIndex = 19;
+            rjRadioButton1.TabStop = true;
+            rjRadioButton1.Text = "Lưu lần sau";
+            rjRadioButton1.UnCheckedColor = Color.Black;
+            rjRadioButton1.UseVisualStyleBackColor = true;
             // 
             // linkLabel1
             // 
@@ -663,22 +680,6 @@
             label6.Size = new Size(72, 22);
             label6.TabIndex = 2;
             label6.Text = "Dark Mode";
-            // 
-            // rjRadioButton1
-            // 
-            rjRadioButton1.AutoSize = true;
-            rjRadioButton1.CheckedColor = Color.MediumSlateBlue;
-            rjRadioButton1.ForeColor = Color.Black;
-            rjRadioButton1.Location = new Point(41, 191);
-            rjRadioButton1.MinimumSize = new Size(0, 21);
-            rjRadioButton1.Name = "rjRadioButton1";
-            rjRadioButton1.Padding = new Padding(10, 0, 0, 0);
-            rjRadioButton1.Size = new Size(95, 21);
-            rjRadioButton1.TabIndex = 19;
-            rjRadioButton1.TabStop = true;
-            rjRadioButton1.Text = "Lưu lần sau";
-            rjRadioButton1.UnCheckedColor = Color.Black;
-            rjRadioButton1.UseVisualStyleBackColor = true;
             // 
             // Main
             // 

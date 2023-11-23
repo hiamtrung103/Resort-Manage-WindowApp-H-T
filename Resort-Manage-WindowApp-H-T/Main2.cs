@@ -1,24 +1,59 @@
 ﻿using Bunifu.Framework.UI;
-using System;
-using System.Windows.Forms;
 using Krypton.Toolkit;
 using Resort_Manage_WindowApp_H_T.Frm;
 using Resort_Manage_WindowApp_H_T.Frm_Log_Reg;
-using Resort_Manage_WindowApp_H_T.Interface;
-using System.Runtime.InteropServices;
-using System.Data.SqlClient;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Reflection.Emit;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Resort_Manage_WindowApp_H_T
 {
-    public partial class Main : KryptonForm
+    public partial class Main2 : KryptonForm
     {
-        public Main()
+        private bool isDarkMode = false;
+
+        public Main2()
         {
             InitializeComponent();
         }
 
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            rjDropdownMenu1.Show(pictureBox4, pictureBox4.Width, 0);
+        }
+
+        private void darkModeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            isDarkMode = !isDarkMode;
+
+            if (isDarkMode)
+            {
+                panelMain.BackColor = Color.FromArgb(51, 51, 51);
+                label1.ForeColor = Color.White;
+                label2.ForeColor = Color.White;
+                label3.ForeColor = Color.White;
+                label4.ForeColor = Color.White;
+                panel1.BackgroundImage = Image.FromFile("D:\\Visual studio\\Repo\\Resort-Manage-WindowApp-H-T\\Resort-Manage-WindowApp-H-T\\icons\\5166950.jpg"); //5153829
+
+            }
+            else
+            {
+                panelMain.BackColor = System.Drawing.SystemColors.Control;
+                label1.ForeColor = Color.Black;
+                label2.ForeColor = Color.Black;
+                label3.ForeColor = Color.Black;
+                label4.ForeColor = Color.Black;
+                panel1.BackgroundImage = Image.FromFile("D:\\Visual studio\\Repo\\Resort-Manage-WindowApp-H-T\\Resort-Manage-WindowApp-H-T\\icons\\5153829.jpg");
+            }
+        }
         private void btnDangNhap_click(object sender, EventArgs e)
         {
             using (SqlConnection conn = new SqlConnection(@"Data Source=Trunq;Initial Catalog=NguoiDung;Integrated Security=True"))
@@ -68,7 +103,7 @@ namespace Resort_Manage_WindowApp_H_T
         private void btnDangKy_click(object sender, EventArgs e)
         {
             this.Hide();
-            taotaikhoan UI = new taotaikhoan();
+            Main3 UI = new Main3();
             UI.Show();
         }
 
@@ -95,53 +130,25 @@ namespace Resort_Manage_WindowApp_H_T
                 txtPass.PasswordChar = true;
             }
         }
-
-        private void Doimaulabel(params Label[] labels)
+        private void Thoat_Click(object sender, EventArgs e)
         {
-            foreach (Label label in labels)
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát chương trình không?", "Thoát chương trình", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
             {
-                if (label != null)
-                {
-                    label.ForeColor = Color.White;
-                }
+                MessageBox.Show("Thoát chương trình", "Thông báo");
+                Application.Exit();
             }
         }
 
-        private void Doimaulabel2(params Label[] labels)
+        private void QuayLaiChuongTrinh_Click(object sender, EventArgs e)
         {
-            foreach (Label label in labels)
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn quay lại chương trình cũ không?", "Quay lại chương trình", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
             {
-                if (label != null)
-                {
-                    label.ForeColor = Color.Black;
-                }
+                this.Hide();
+                Main main = new Main();
+                main.Show();
             }
-        }
-        private void KtraBatTat_CheckedChanged(object sender, EventArgs e)
-        {
-            if (toggleButton1.Checked)
-            {
-                panelMain.BackColor = Color.FromArgb(51, 51, 51);
-                panel4.BackColor = Color.FromArgb(44, 62, 80);
-                bunifuCards3.BackColor = Color.FromArgb(26, 26, 26);
-                Doimaulabel(label1, label2, label4, label5, label6);
-                pictureBox1.Image = Image.FromFile("D:\\Visual studio\\Repo\\Resort-Manage-WindowApp-H-T\\Resort-Manage-WindowApp-H-T\\icons\\2.gif");
-            }
-            else
-            {
-                panelMain.BackColor = System.Drawing.SystemColors.Control;
-                panel4.BackColor = System.Drawing.Color.Gainsboro;
-                bunifuCards3.BackColor = System.Drawing.Color.WhiteSmoke;
-                Doimaulabel2(label1, label2, label4, label5, label6);
-                pictureBox1.Image = Image.FromFile("D:\\Visual studio\\Repo\\Resort-Manage-WindowApp-H-T\\Resort-Manage-WindowApp-H-T\\icons\\1.gif");
-            }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Main2 main2 = new Main2();
-            main2.Show();
         }
     }
 }
