@@ -131,12 +131,12 @@ namespace Resort_Manage_WindowApp_H_T
             frmConHientai.FormClosed += frmCon_Tat;
 
             frmCon.TopLevel = false;
-            //frmCon.FormBorderStyle = FormBorderStyle.None;
-            //frmCon.Dock = DockStyle.Fill;
+            frmCon.FormBorderStyle = FormBorderStyle.None;
+            frmCon.Dock = DockStyle.Fill;
 
             panelMain.Controls.Add(frmCon);
             panelMain.Tag = frmCon;
-            //frmCon.BringToFront();
+            frmCon.BringToFront();
             frmCon.Show();
         }
 
